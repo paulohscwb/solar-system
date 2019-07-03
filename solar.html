@@ -31,6 +31,7 @@
 	  <a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
 	  <a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
 	  <a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6;"></a-mixin>
+	  <a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.01 0" link="title: VR; highlighted:true; backgroundColor:LightGray"></a-mixin>
         </a-assets>
 
         <a-entity camera></a-entity>
@@ -40,7 +41,7 @@
 
         <a-marker preset="hiro">
 	   <a-entity id="sistema" position="0 1 0" scale="0.15 0.15 0.15">
-		<a-link rotation="-90 0 0" href="vr/solar.html" title="VR" scale="0.5 0.5 0.5" position="0 0.1 0" link="highlighted:true; backgroundColor:LightGray"></a-link>
+		<a-link mixin="lnk" href="vr/solar.html"></a-link>
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
