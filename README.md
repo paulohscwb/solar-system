@@ -1,5 +1,17 @@
-# solar-system
-Visualization of Solar System with Augmented Reality and Virtual Reality with A-frame
+# Visualization of Solar System with Augmented Reality and Virtual Reality with A-frame
+<i>author: Paulo Henrique Siqueira - Universidade Federal do Paraná</i>
+ <br>contact: <a href="#">paulohscwb@gmail.com</a>
+ <br><a href="https://paulohscwb.github.io/sistema-solar/">versão em português</a>
+ <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR.
+<br>The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js">AR.js - Augmented Reality for the Web</a>.
+<br>The orbit scripts developed by <b>Till Hinrichs</b> were used on the VR pages: <a href="https://github.com/tizzle/aframe-orbit-controls-component">A-frame orbit controls component</a>.
+<br>The information used was taken from NASA's website: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Planetary Fact Sheet</a>.
+<br>The textures used on the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/">Solar Textures</a>.
+<br><br>To view the Solar System in AR, simply visit 
+<p align="center"><a href="https://paulohscwb.github.io/solar-system/solar.html">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
+with any browser with a webcam device (smartphone, tablet or notebook). 
+<br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
+<br><br><center><img src="vr/example.jpg" width="80%"></center>
 <hr><h3>Solar System</h3>
 <h4>Solar System with dwarf planets</h4>
 <img src="https://paulohscwb.github.io/polyhedra/ar/hiro.png" width="180px">
