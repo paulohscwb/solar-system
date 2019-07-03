@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
+	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+</head>
+  <body>
+ <a-scene cursor="rayOrigin:mouse">
+
+    <a-entity camera look-controls orbit-controls="target: 0 0 0; minDistance: 0.5; maxPolarAngle: 360; maxDistance: 360; initialPosition: 0 2 18"></a-entity>
+
+	<a-assets>
+		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
+		<img id="sol" src="../imagens/2k_sun.jpg">
+		<img id="saturno1" src="../imagens/2k_saturn.jpg">
+		<img id="saturno_a" src="../imagens/2k_saturn_ring_alpha.png">
+		<a-mixin id="texto" text="width: 10; side:double; color: white"></a-mixin>
+		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
+			material="color: cyan; opacity:0.7; side:double;" event-set__enter="_event: mouseenter; opacity: 1"
+           event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
+		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double;"></a-mixin>
+		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
+		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
+		<a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6;"></a-mixin>
+	</a-assets>
+		
+	<a-sky src="#vialactea"></a-sky>
+
+	<a-entity position="0 0 0">
+		<a-sphere src="#sol" radius="2" mixin="esferas">
+			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
+		</a-sphere>
+
+		<a-entity id="saturno" rotation="2.5 113.71 0" scale="1 1 0.998">
+				<a-cylinder color="yellow" rotation="90 0 90" height="26.5" mixin="eixos"></a-cylinder>
+				<a-entity rotation="0 92.4 0">
+					<a-cylinder color="red" rotation="90 0 90" height="26.5" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="12.43 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-13.17 0.3 0"></a-text>
+					<a-entity position="-0.37 0 0">
+						<a-entity rotation="0 77 0">
+							<a-sphere src="#saturno1" radius="0.58" position="12.8 0 0" scale="1 1 1.002" mixin="esferas">
+								<a-animation mixin="anima1" dur="11146" from="26.73 0 0" to="26.73 360 0"></a-animation>
+							</a-sphere>
+							<a-ring src="#saturno_a" radius-inner="0.8" radius-outer="1.2" position="12.8 0 0" side="double" transparent="true" segments-theta="150">
+								<a-animation mixin="anima1" dur="11146" from="116.73 0 0 " to="116.73 360 0"></a-animation>
+							</a-ring>
+							<a-cylinder color="green" position="12.8 0 0" height="2.4" mixin="eixos">
+								<a-animation mixin="anima1" dur="11146" from="26.73 0 0 " to="26.73 360 0"></a-animation>
+							</a-cylinder>
+							<a-text value="SATURN" mixin="texto" position="12.8 0.8 0"></a-text>
+						</a-entity>
+						<a-torus radius="12.8" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="1722445"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+	</a-entity>
+		
+  </a-scene>
+ </body>
+</html>
