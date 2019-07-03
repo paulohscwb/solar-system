@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
+	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+</head>
+  <body>
+ <a-scene cursor="rayOrigin:mouse">
+
+    <a-entity camera look-controls orbit-controls="target: 0 0 0; minDistance: 0.5; maxPolarAngle: 360; maxDistance: 360; initialPosition: 0 2 9"></a-entity>
+
+	<a-assets>
+		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
+		<img id="sol" src="../imagens/2k_sun.jpg">
+		<img id="marte1" src="../imagens/2k_mars.jpg">
+		<a-mixin id="texto" text="width: 10; side:double; color: white"></a-mixin>
+		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
+			material="color: cyan; opacity:0.7; side:double;" event-set__enter="_event: mouseenter; opacity: 1"
+           event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
+		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double;"></a-mixin>
+		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
+		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
+		<a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6;"></a-mixin>
+	</a-assets>
+		
+	<a-sky src="#vialactea"></a-sky>
+
+	<a-entity position="0 0 0">
+		<a-sphere src="#sol" radius="2" mixin="esferas">
+			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
+		</a-sphere>
+				
+		<a-entity id="marte" rotation="1.9 49.57 0" scale="1 1 0.98">
+				<a-cylinder position="-0.1 0 0" color="yellow" rotation="90 0 90" height="10.6" mixin="eixos"></a-cylinder>
+				<a-entity rotation="0 336 0">
+					<a-cylinder position="-0.1 0 0" color="red" rotation="90 0 90" height="10.6" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="4.86 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-5.34 0.3 0"></a-text>
+					<a-entity position="-0.24 0 0">
+						<a-entity rotation="0 12 0">
+							<a-sphere src="#marte1" radius="0.14" position="5.1 0 0" scale="1 1 1.004" mixin="esferas">
+								<a-animation mixin="anima1" dur="16780" from="25.19 0 0" to="25.19 360 0"></a-animation>
+							</a-sphere>
+							<a-cylinder color="green" position="5.1 0 0" height="0.6" mixin="eixos">
+								<a-animation mixin="anima1" dur="16780" from="25.19 0 0" to="25.19 360 0"></a-animation>
+							</a-cylinder>
+							<a-text value="MARS" mixin="texto" position="5.1 0.3 0"></a-text>
+						</a-entity>
+						<a-torus radius="5.1" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="435492"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+		
+	</a-entity>
+		
+  </a-scene>
+ </body>
+</html>
