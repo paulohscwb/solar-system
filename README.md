@@ -63,6 +63,16 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <br><b>Day:</b> 16 hours | <b>Year:</b> 165 Earth years | <b>Radius:</b> 24,622 kilometers | <b>Planet Type:</b> Ice giant | <b>Moons:</b> 13 | <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank">More...</a>
  <br><a href="https://paulohscwb.github.io/solar-system/vr/neptune.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <hr><h3>Dwarf Planets</h3>
+<h4>1. Pluto</h4>
+ <img src="https://paulohscwb.github.io/polyhedra/ar/12.png" width="180px">
+ <br><br>Pluto—which is smaller than Earth’s Moon—has a heart-shaped glacier that’s the size of Texas and Oklahoma. This fascinating world has blue skies, spinning moons, mountains as high as the Rockies, and it snows—but the snow is red. “The complexity of the Pluto system — from its geology to its satellite system to its atmosphere— has been beyond our wildest imagination,” said Alan Stern, New Horizons principal investigator from the Southwest Research Institute in Boulder, Colorado. “Everywhere we turn are new mysteries."
+<br><b>Day:</b> 153 hours | <b>Year:</b> 248 Earth years | <b>Radius:</b> 1,151 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 5 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/pluto/overview/" target="_blank">More...</a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/pluto.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+<h4>2. Ceres</h4>
+ <img src="https://paulohscwb.github.io/polyhedra/ar/13.png" width="180px">
+ <br><br>Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter and the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. And when Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft. Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. Even though Ceres comprises 25 percent of the asteroid belt's total mass, tiny Pluto is still 14 times more massive. Ceres is named for the Roman goddess of corn and harvests. The word cereal comes from the same name.
+<br><b>Day:</b> 9 hours | <b>Year:</b> 1,682 Earth days | <b>Radius:</b> 476 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 0 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/ceres/overview/" target="_blank">More...</a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/ceres.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <h4>1. Eris</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/16.png" width="180px">
  <br><br>...
@@ -75,15 +85,6 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <img src="https://paulohscwb.github.io/polyhedra/ar/14.png" width="180px">
  <br><br>...
  <br><a href="https://paulohscwb.github.io/solar-system/vr/makemake.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
- <h4>1. Ceres</h4>
- <img src="https://paulohscwb.github.io/polyhedra/ar/13.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/ceres.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Pluto</h4>
- <img src="https://paulohscwb.github.io/polyhedra/ar/12.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/pluto.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-
 
 <h4>1. Sun</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
