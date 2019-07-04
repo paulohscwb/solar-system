@@ -90,3 +90,4 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>...
  <br><a href="https://paulohscwb.github.io/solar-system/vr/sun.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+ <hr>
