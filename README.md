@@ -42,17 +42,20 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps and weather and canyons and extinct volacanoes, evidence of an even more active past.Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA currently has three spacecraft in orbit, one rover and one lander on the surface and another rover under construction here on Earth. India and ESA also have spacecraft in orbit above Mars. These robotic explorers have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago.
 <br><b>Day:</b> 24.6 hours | <b>Year:</b> 687 Earth days | <b>Radius:</b> 3,390 kilometers | <b>Planet Type:</b> Terrestrial | <b>Moons:</b> 2 | <a href="https://solarsystem.nasa.gov/planets/mars/overview/" target="_blank">More...</a>
  <br><a href="https://paulohscwb.github.io/solar-system/vr/mars.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Jupiter</h4>
+<h4>5. Jupiter</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/19.png" width="180px">
- <br><br>...
+ <br><br>Jupiter has a long history surprising scientists—all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe. Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.
+<br><b>Day:</b> 9.92496 Hours | <b>Year:</b> 4,333 Earth days | <b>Radius:</b> 69,911 kilometers | <b>Planet Type:</b> Gas giant | <b>Moons:</b> 79 | <a href="https://solarsystem.nasa.gov/planets/jupiter/overview/" target="_blank">More...</a> 
  <br><a href="https://paulohscwb.github.io/solar-system/vr/jupiter.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Saturn</h4>
+<h4>6. Saturn</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/18.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/saturn.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Uranus</h4>
+ <br><br>.Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium.
+<br><b>Day:</b> 10.7 hours | <b>Year:</b> 29 Earth years | <b>Radius:</b> 58,232 kilometers | <b>Planet Type:</b> Gas giant | <b>Moons:</b> 53 | <a href="https://solarsystem.nasa.gov/planets/saturn/overview/" target="_blank">More...</a> 
+<br><a href="https://paulohscwb.github.io/solar-system/vr/saturn.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+<h4>7. Uranus</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/17.png" width="180px">
- <br><br>...
+ <br><br>The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead the planet was named for Uranus, the Greek god of the sky, as suggested by Johann Bode.
+<br><b>Day:</b> 17 hours and 14 minutes | <b>Year:</b> 84 Earth years | <b>Radius:</b> 25,362 kilometers | <b>Planet Type:</b> Ice giant | <b>Moons:</b> 27 | <a href="https://solarsystem.nasa.gov/planets/uranus/overview/" target="_blank">More...</a> 
  <br><a href="https://paulohscwb.github.io/solar-system/vr/uranus.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <h4>1. Eris</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/16.png" width="180px">
