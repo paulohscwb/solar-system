@@ -22,11 +22,11 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>...
  <br><a href="https://paulohscwb.github.io/solar-system/vr/solar1.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <hr><h3>Planets</h3>
-<h4>1. Mercury</h4>
+<table><tr><td><h4>1. Mercury</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/8.png" width="180px">
  <br><br>The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere.
 <br><b>Day:</b> 59 Earth days | <b>Year:</b> 88 Earth days | <b>Radius:</b> 2,439.7 kilometers | <b>Planet Type:</b> Terrestrial | <b>Moons:</b> 0 | <a href="https://solarsystem.nasa.gov/planets/mercury/overview/" target="_blank">More...</a>
-<br><a href="https://paulohscwb.github.io/solar-system/vr/mercury.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+<br><a href="https://paulohscwb.github.io/solar-system/vr/mercury.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
  <h4>2. Venus</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/9.png" width="180px">
  <br><br>Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.
