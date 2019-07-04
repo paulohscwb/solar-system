@@ -7,7 +7,7 @@
 <br>The orbit scripts developed by <b>Till Hinrichs</b> were used on the VR pages: <a href="https://github.com/tizzle/aframe-orbit-controls-component" target="_blank">A-frame orbit controls component</a>.
 <br>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>. 
 <br>The objective of this project is to show the planets in RA and RV with A-frame technology.
-<br>The textures used on the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
+<br>The textures of the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
 <br><br>To view the Solar System in AR, simply visit 
 <p align="center"><a href="https://paulohscwb.github.io/solar-system/solar.html">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
