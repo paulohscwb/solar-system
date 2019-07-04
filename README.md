@@ -30,6 +30,11 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <img src="https://paulohscwb.github.io/polyhedra/ar/9.png" width="180px">
  <br><br>Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.
  <br><a href="https://paulohscwb.github.io/solar-system/vr/venus.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+<h4>3. Earth</h4>
+ <img src="https://paulohscwb.github.io/polyhedra/ar/10.png" width="180px">
+ <br><br>Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.
+<br>The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is a Germanic word, which simply means “the ground.”
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/earth.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <h4>1. Mars</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/20.png" width="180px">
  <br><br>...
@@ -70,10 +75,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <img src="https://paulohscwb.github.io/polyhedra/ar/11.png" width="180px">
  <br><br>...
  <br><a href="https://paulohscwb.github.io/solar-system/vr/neptune.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Earth</h4>
- <img src="https://paulohscwb.github.io/polyhedra/ar/10.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/earth.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+
 <h4>1. Sun</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>...
