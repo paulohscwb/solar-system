@@ -49,7 +49,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><a href="https://paulohscwb.github.io/solar-system/vr/jupiter.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <h4>6. Saturn</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/18.png" width="180px">
- <br><br>.Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium.
+ <br><br>Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium.
 <br><b>Day:</b> 10.7 hours | <b>Year:</b> 29 Earth years | <b>Radius:</b> 58,232 kilometers | <b>Planet Type:</b> Gas giant | <b>Moons:</b> 53 | <a href="https://solarsystem.nasa.gov/planets/saturn/overview/" target="_blank">More...</a> 
 <br><a href="https://paulohscwb.github.io/solar-system/vr/saturn.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <h4>7. Uranus</h4>
@@ -57,6 +57,12 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead the planet was named for Uranus, the Greek god of the sky, as suggested by Johann Bode.
 <br><b>Day:</b> 17 hours and 14 minutes | <b>Year:</b> 84 Earth years | <b>Radius:</b> 25,362 kilometers | <b>Planet Type:</b> Ice giant | <b>Moons:</b> 27 | <a href="https://solarsystem.nasa.gov/planets/uranus/overview/" target="_blank">More...</a> 
  <br><a href="https://paulohscwb.github.io/solar-system/vr/uranus.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+<h4>8. Neptune</h4>
+ <img src="https://paulohscwb.github.io/polyhedra/ar/11.png" width="180px">
+ <br><br>Dark, cold and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. NASA's Voyager 2 is the only spacecraft to have visited Neptune up close. It flew past in 1989 on its way out of the solar system.
+<br><b>Day:</b> 16 hours | <b>Year:</b> 165 Earth years | <b>Radius:</b> 24,622 kilometers | <b>Planet Type:</b> Ice giant | <b>Moons:</b> 13 | <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank">More...</a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/neptune.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+<hr><h3>Dwarf Planets</h3>
 <h4>1. Eris</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/16.png" width="180px">
  <br><br>...
@@ -77,10 +83,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <img src="https://paulohscwb.github.io/polyhedra/ar/12.png" width="180px">
  <br><br>...
  <br><a href="https://paulohscwb.github.io/solar-system/vr/pluto.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Neptune</h4>
- <img src="https://paulohscwb.github.io/polyhedra/ar/11.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/neptune.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+
 
 <h4>1. Sun</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
