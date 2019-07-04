@@ -73,18 +73,22 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter and the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. And when Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft. Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. Even though Ceres comprises 25 percent of the asteroid belt's total mass, tiny Pluto is still 14 times more massive. Ceres is named for the Roman goddess of corn and harvests. The word cereal comes from the same name.
 <br><b>Day:</b> 9 hours | <b>Year:</b> 1,682 Earth days | <b>Radius:</b> 476 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 0 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/ceres/overview/" target="_blank">More...</a>
  <br><a href="https://paulohscwb.github.io/solar-system/vr/ceres.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
-<table><tr><td><h4>1. Eris</h4>
- <img src="https://paulohscwb.github.io/polyhedra/ar/16.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/eris.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
-<table><tr><td><h4>1. Haumea</h4>
- <img src="https://paulohscwb.github.io/polyhedra/ar/15.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/haumea.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
-<table><tr><td><h4>1. Makemake</h4>
+<table><tr><td><h4>3. Makemake</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/14.png" width="180px">
- <br><br>...
+ <br><br>Along with fellow dwarf planets Pluto, Eris and Haumea, Makemake is located in the Kuiper Belt, a region outside the orbit of Neptune. Slightly smaller than Pluto, Makemake is the second-brightest object in the Kuiper Belt as seen from Earth (while Pluto is the brightest). It takes about 305 Earth years for this dwarf planet to make one trip around the sun. Makemake holds an important place in the history of solar system studies because it—along with Eris—was one of the objects whose discovery prompted the International Astronomical Union to reconsider the definition of a planet and to create the new group of dwarf planets.Makemake was named after the Rapanui god of fertility.
+<br><b>Day:</b> 2.5 hours | <b>Year:</b> 305.34 Earth years | <b>Radius:</b> 715 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 0 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/makemake/in-depth/" target="_blank">More...</a>
  <br><a href="https://paulohscwb.github.io/solar-system/vr/makemake.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>4. Haumea</h4>
+ <img src="https://paulohscwb.github.io/polyhedra/ar/15.png" width="180px">
+ <br><br>Originally designated 2003 EL61 (and nicknamed Santa by one discovery team), Haumea resides in the Kuiper belt and is roughly the same size as Pluto. Haumea is one of the fastest rotating large objects in our solar system. Its fast spin distorts Haumea's shape, making this dwarf planet look like a football.Two teams claim credit for discovering of Haumea citing evidence from observations made in 2003 and 2004. The International Astronomical Union’s Gazetteer of Planetary Nomenclature lists the discovery location as Sierra Nevada Observatory in Spain on Mar. 7, 2003, but no official discoverer is listed. Haumea was named after the Hawaiian goddess of fertility.
+<br><b>Day:</b> 4 hours | <b>Year:</b> 285 Earth years | <b>Radius:</b> 620 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 2 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/haumea/in-depth/" target="_blank">More...</a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/haumea.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>5. Eris</h4>
+ <img src="https://paulohscwb.github.io/polyhedra/ar/16.png" width="180px">
+ <br><br>Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto, but is three times farther from the Sun. Eris first appeared to be larger than Pluto. This triggered a debate in the scientific community that led to the International Astronomical Union's decision in 2006 to clarify the definition of a planet. Pluto, Eris and other similar objects are now classified as dwarf planets. Originally designated 2003 UB313 (and nicknamed for the television warrior Xena by its discovery team), Eris is named for the ancient Greek goddess of discord and strife. The name fits since Eris remains at the center of a scientific debate about the definition of a planet. Eris was discovered on Oct. 21, 2003 by M.E. Brown, C.A. Trujillo, and D. Rabinowitz at the Palomar Observatory.
+<br><b>Day:</b> 25.9 hours | <b>Year:</b> 557 Earth years | <b>Radius:</b> 1,163 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 1 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/" target="_blank">More...</a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/eris.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+
 
 <table><tr><td><h4>1. Sun</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
