@@ -5,7 +5,7 @@
  <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR.
 <br>The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js">AR.js - Augmented Reality for the Web</a>.
 <br>The orbit scripts developed by <b>Till Hinrichs</b> were used on the VR pages: <a href="https://github.com/tizzle/aframe-orbit-controls-component">A-frame orbit controls component</a>.
-<br>The information used was taken from NASA's website: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Planetary Fact Sheet</a>.
+<br>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/">https://solarsystem.nasa.gov/</a>. The objective of this project is to show the planets in RA and RV with A-frame technology.
 <br>The textures used on the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/">Solar Textures</a>.
 <br><br>To view the Solar System in AR, simply visit 
 <p align="center"><a href="https://paulohscwb.github.io/solar-system/solar.html">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
