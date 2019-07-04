@@ -22,71 +22,71 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>...
  <br><a href="https://paulohscwb.github.io/solar-system/vr/solar1.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
 <hr><h3>Planets</h3>
-<table><tr><h4>1. Mercury</h4>
+<table><tr><td><h4>1. Mercury</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/8.png" width="180px">
  <br><br>The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere.
 <br><b>Day:</b> 59 Earth days | <b>Year:</b> 88 Earth days | <b>Radius:</b> 2,439.7 kilometers | <b>Planet Type:</b> Terrestrial | <b>Moons:</b> 0 | <a href="https://solarsystem.nasa.gov/planets/mercury/overview/" target="_blank">More...</a>
-<br><a href="https://paulohscwb.github.io/solar-system/vr/mercury.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></tr></table>
- <h4>2. Venus</h4>
+<br><a href="https://paulohscwb.github.io/solar-system/vr/mercury.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>2. Venus</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/9.png" width="180px">
  <br><br>Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.
 <br><b>Day:</b> 243 Earth days | <b>Year:</b> 225 Earth days | <b>Radius:</b> 6,052 kilometers | <b>Planet Type:</b> Terrestrial | <b>Moons:</b> 0 | <a href="https://solarsystem.nasa.gov/planets/venus/overview/" target="_blank">More...</a>
- <br><a href="https://paulohscwb.github.io/solar-system/vr/venus.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>3. Earth</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/venus.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>3. Earth</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/10.png" width="180px">
  <br><br>Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal. The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is a Germanic word, which simply means “the ground.”
 <br><b>Day:</b> 23.9 hours | <b>Year:</b> 365.25 days | <b>Radius:</b> 6,371 kilometers | <b>Planet Type:</b> Terrestrial | <b>Moons:</b> 1 | <a href="https://solarsystem.nasa.gov/planets/earth/overview/" target="_blank">More...</a>
- <br><a href="https://paulohscwb.github.io/solar-system/vr/earth.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>4. Mars</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/earth.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>4. Mars</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/20.png" width="180px">
  <br><br>The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps and weather and canyons and extinct volacanoes, evidence of an even more active past.Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA currently has three spacecraft in orbit, one rover and one lander on the surface and another rover under construction here on Earth. India and ESA also have spacecraft in orbit above Mars. These robotic explorers have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago.
 <br><b>Day:</b> 24.6 hours | <b>Year:</b> 687 Earth days | <b>Radius:</b> 3,390 kilometers | <b>Planet Type:</b> Terrestrial | <b>Moons:</b> 2 | <a href="https://solarsystem.nasa.gov/planets/mars/overview/" target="_blank">More...</a>
- <br><a href="https://paulohscwb.github.io/solar-system/vr/mars.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>5. Jupiter</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/mars.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>5. Jupiter</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/19.png" width="180px">
  <br><br>Jupiter has a long history surprising scientists—all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe. Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.
 <br><b>Day:</b> 9.92496 Hours | <b>Year:</b> 4,333 Earth days | <b>Radius:</b> 69,911 kilometers | <b>Planet Type:</b> Gas giant | <b>Moons:</b> 79 | <a href="https://solarsystem.nasa.gov/planets/jupiter/overview/" target="_blank">More...</a> 
- <br><a href="https://paulohscwb.github.io/solar-system/vr/jupiter.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>6. Saturn</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/jupiter.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>6. Saturn</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/18.png" width="180px">
  <br><br>Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium.
 <br><b>Day:</b> 10.7 hours | <b>Year:</b> 29 Earth years | <b>Radius:</b> 58,232 kilometers | <b>Planet Type:</b> Gas giant | <b>Moons:</b> 53 | <a href="https://solarsystem.nasa.gov/planets/saturn/overview/" target="_blank">More...</a> 
-<br><a href="https://paulohscwb.github.io/solar-system/vr/saturn.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>7. Uranus</h4>
+<br><a href="https://paulohscwb.github.io/solar-system/vr/saturn.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>7. Uranus</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/17.png" width="180px">
  <br><br>The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead the planet was named for Uranus, the Greek god of the sky, as suggested by Johann Bode.
 <br><b>Day:</b> 17 hours and 14 minutes | <b>Year:</b> 84 Earth years | <b>Radius:</b> 25,362 kilometers | <b>Planet Type:</b> Ice giant | <b>Moons:</b> 27 | <a href="https://solarsystem.nasa.gov/planets/uranus/overview/" target="_blank">More...</a> 
- <br><a href="https://paulohscwb.github.io/solar-system/vr/uranus.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>8. Neptune</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/uranus.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>8. Neptune</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/11.png" width="180px">
  <br><br>Dark, cold and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. NASA's Voyager 2 is the only spacecraft to have visited Neptune up close. It flew past in 1989 on its way out of the solar system.
 <br><b>Day:</b> 16 hours | <b>Year:</b> 165 Earth years | <b>Radius:</b> 24,622 kilometers | <b>Planet Type:</b> Ice giant | <b>Moons:</b> 13 | <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank">More...</a>
- <br><a href="https://paulohscwb.github.io/solar-system/vr/neptune.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/neptune.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
 <hr><h3>Dwarf Planets</h3>
-<h4>1. Pluto</h4>
+<table><tr><td><h4>1. Pluto</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/12.png" width="180px">
  <br><br>Pluto—which is smaller than Earth’s Moon—has a heart-shaped glacier that’s the size of Texas and Oklahoma. This fascinating world has blue skies, spinning moons, mountains as high as the Rockies, and it snows—but the snow is red. “The complexity of the Pluto system — from its geology to its satellite system to its atmosphere— has been beyond our wildest imagination,” said Alan Stern, New Horizons principal investigator from the Southwest Research Institute in Boulder, Colorado. “Everywhere we turn are new mysteries."
 <br><b>Day:</b> 153 hours | <b>Year:</b> 248 Earth years | <b>Radius:</b> 1,151 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 5 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/pluto/overview/" target="_blank">More...</a>
- <br><a href="https://paulohscwb.github.io/solar-system/vr/pluto.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>2. Ceres</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/pluto.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>2. Ceres</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/13.png" width="180px">
  <br><br>Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter and the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. And when Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft. Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. Even though Ceres comprises 25 percent of the asteroid belt's total mass, tiny Pluto is still 14 times more massive. Ceres is named for the Roman goddess of corn and harvests. The word cereal comes from the same name.
 <br><b>Day:</b> 9 hours | <b>Year:</b> 1,682 Earth days | <b>Radius:</b> 476 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 0 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/ceres/overview/" target="_blank">More...</a>
- <br><a href="https://paulohscwb.github.io/solar-system/vr/ceres.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Eris</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/ceres.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>1. Eris</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/16.png" width="180px">
  <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/eris.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Haumea</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/eris.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>1. Haumea</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/15.png" width="180px">
  <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/haumea.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>1. Makemake</h4>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/haumea.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>1. Makemake</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/14.png" width="180px">
  <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/makemake.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/makemake.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
 
-<h4>1. Sun</h4>
+<table><tr><td><h4>1. Sun</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/sun.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/sun.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
