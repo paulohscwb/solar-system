@@ -13,14 +13,14 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <br><br><center><img src="vr/example.png" width="80%"></center>
 <hr><h3>Solar System</h3>
-<h4>Solar System with dwarf planets</h4>
+<table><tr><td><h4>Solar System with dwarf planets</h4>
 <img src="https://paulohscwb.github.io/polyhedra/ar/hiro.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/solar.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
-<h4>Solar System without dwarf planets</h4>
+ <br><br>Our planetary system is located in an outer spiral arm of the Milky Way galaxy. Our solar system consists of our star, the Sun, and everything bound to it by gravity — the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, dwarf planets such as Pluto, dozens of moons and millions of asteroids, comets and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way (NASA, 2019). <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/" target="_blank">More...</a>
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/solar.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
+<table><tr><td><h4>Solar System without dwarf planets</h4>
 <img src="https://paulohscwb.github.io/polyhedra/ar/kanji.png" width="180px">
- <br><br>...
- <br><a href="https://paulohscwb.github.io/solar-system/vr/solar1.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a>
+ <br><br>The order and arrangement of the planets and other bodies in our solar system is due to the way the solar system formed. Nearest the Sun, only rocky material could withstand the heat when the solar system was young. For this reason, the first four planets—Mercury, Venus, Earth and Mars—are terrestrial planets. They're small with solid, rocky surfaces. Meanwhile, materials we are used to seeing as ice, liquid or gas settled in the outer regions of the young solar system. Gravity pulled these materials together, and that is where we find gas giants Jupiter and Saturn and ice giants Uranus and Neptune.The Solar System without dwarf planets Pluto, Ceres, Makemake, Haumea and Eris can be seen in the RV link.
+ <br><a href="https://paulohscwb.github.io/solar-system/vr/solar1.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
 <hr><h3>Planets</h3>
 <table><tr><td><h4>1. Mercury</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/8.png" width="180px">
