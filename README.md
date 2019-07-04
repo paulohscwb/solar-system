@@ -91,7 +91,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><a href="https://paulohscwb.github.io/solar-system/vr/eris.html"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="150px"></a></td></tr></table>
 
 <hr>
-<table><tr><td><h3>1. The Sun</h3>
+<table><tr><td><h3>The Sun</h3>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>The Sun—the heart of our solar system—is a yellow dwarf star, a hot ball of glowing gases. Its gravity holds the solar system together, keeping everything from the biggest planets to the smallest particles of debris in its orbit. Electric currents in the Sun generate a magnetic field that is carried out through the solar system by the solar wind—a stream of electrically charged gas blowing outward from the Sun in all directions. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and aurorae. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.
  <br><b>Distance from Earth:</b> 149.60 million kilometers or 1 astronomical unit <b>Radius:</b> 695,508 kilometers | <b>Star Type:</b> Yellow dwarf | <a href="https://solarsystem.nasa.gov/solar-system/sun/in-depth/" target="_blank">More...</a>
