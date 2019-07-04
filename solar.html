@@ -1,7 +1,7 @@
 <!doctype HTML>
   <html>
     <head>
-	<script src="https://aframe.io/releases/0.8.2/aframe.js"></script>
+	<script src="https://aframe.io/releases/0.9.0/aframe.js"></script>
 	<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body style='margin: 0; overflow: hidden;'>
@@ -40,8 +40,8 @@
         <a-light type="ambient" intensity="1.3" color="grey"></a-light>
 
         <a-marker preset="hiro">
-	   <a-entity id="sistema" position="0 1 0" scale="0.15 0.15 0.15">
-		<a-link mixin="lnk" href="vr/solar.html"></a-link>
+	    <a-link mixin="lnk" href="vr/solar.html"></a-link>
+		<a-entity id="sistema" position="0 1 0" scale="0.15 0.15 0.15">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
@@ -258,8 +258,8 @@
 	 </a-marker>
 	 
 	 <a-marker preset="kanji">
-	   <a-entity id="sistema" position="0 1 0" scale="0.17 0.17 0.17">
-		<a-link rotation="-90 0 0" href="vr/solar1.html" title="VR" scale="0.5 0.5 0.5" position="0 0.1 0" link="highlighted:true; backgroundColor:LightGray"></a-link>
+	    <a-link mixin="lnk" href="vr/solar1.html"></a-link>
+	       <a-entity id="sistema" position="0 1 0" scale="0.17 0.17 0.17">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
