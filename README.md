@@ -2,7 +2,7 @@
 <i>author: Paulo Henrique Siqueira - Universidade Federal do Paraná</i>
  <br>contact: <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/sistema-solar/">versão em português</a>
- <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR.
+ <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR. To make the RV and RA programmed environment closer to reality, we included orbital and rotational periods of each planet, the inclinations of orbits, and the distances aphelion and perihelion relative to Sun.
 <br>The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
 <br>The orbit scripts developed by <b>Till Hinrichs</b> were used on the VR pages: <a href="https://github.com/tizzle/aframe-orbit-controls-component" target="_blank">A-frame orbit controls component</a>.
 <br>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>. 
