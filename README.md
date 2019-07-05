@@ -11,8 +11,9 @@
 <br><br>To view the Solar System in AR, simply visit 
 <p align="center"><a href="https://paulohscwb.github.io/solar-system/solar.html">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
-<br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <br><br><center><img src="vr/example.png" width="80%"></center>
+Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
+<br><br><center><img src="vr/example0.jpg" width="60%"></center>
 <hr><h3>Solar System</h3>
 <table><tr><td><h4>Solar System with dwarf planets</h4>
 <img src="https://paulohscwb.github.io/polyhedra/ar/hiro.png" width="180px">
