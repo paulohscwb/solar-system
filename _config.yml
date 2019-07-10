@@ -1,2 +1,3 @@
 theme: jekyll-theme-cayman
-show_url: none
+github:
+  is_project_page: false
