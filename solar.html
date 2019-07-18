@@ -25,6 +25,8 @@
 	  <img id="haumea1" src="imagens/2k_haumea.jpg">
 	  <img id="eris1" src="imagens/2k_eris.jpg">
 	  <a-mixin id="texto" text="width: 13; side:double; color: #404040"></a-mixin>
+	  a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
+	  <a-mixin id="orbita" material="color: white; opacity:0.15; side:double;"></a-mixin>
   	  <a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double;"></a-mixin>
 	  <a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.01; segments-tubular:300;" 
 	      material="color: #0080ff; opacity:0.8; side:double;"></a-mixin>
@@ -406,12 +408,15 @@
 	        <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>		    
-	   	<a-entity id="jupiter3" rotation="1.3 100.55 0" scale="1 1 0.999">
-				<a-cylinder position="-0.2 0 0" color="yellow" rotation="90 0 90" height="19" mixin="eixos"></a-cylinder>
+	   	<a-cylinder color="orange" rotation="90 0 90" height="10" position="5 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="9.5 0.2 0" mixin="texto" ></a-text>		
+		<a-entity id="jupiter3" rotation="1.3 100.55 0" scale="1 1 0.999">
+				<a-cylinder position="-0.2 0 0" color="yellow" rotation="90 0 90" height="20" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-9 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 14.7 0">
-					<a-cylinder position="-0.2 0 0" color="red" rotation="90 0 90" height="19" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="9.17 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-9.63 0.3 0"></a-text>
+					<a-cylinder position="-0.2 0 0" color="red" rotation="90 0 90" height="20" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="9.5 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-10.3 0.3 0"></a-text>
 					<a-entity position="-0.23 0 0">
 						<a-entity rotation="0 131 0">
 							<a-sphere src="#jupiter1" radius="0.64" position="9.4 0 0" scale="1 1 1.001" mixin="esferas">
@@ -427,6 +432,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="9.4" position="0 0 0.2" rotation="-90 0 0" segments="128"></a-circle>
 	     </a-entity>
 	 </a-marker>
 	   
