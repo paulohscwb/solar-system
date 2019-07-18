@@ -15,6 +15,8 @@
 		<img id="sol" src="../imagens/2k_sun.jpg">
 		<img id="haumea1" src="../imagens/2k_haumea.jpg">
 		<a-mixin id="texto" text="width: 10; side:double; color: white"></a-mixin>
+		<a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
+		<a-mixin id="orbita" material="color: white; opacity:0.15; side:double;"></a-mixin>
 		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
 			material="color: cyan; opacity:0.7; side:double;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
@@ -25,18 +27,21 @@
 	</a-assets>
 		
 	<a-sky src="#vialactea"></a-sky>
-
+	<a-text mixin="texto1" width="6" position="0 -1 28.5" rotation="-45 0 0" 
+			  text="value:HAUMEA  |  Day: 4 hours  |  Year: 285 Earth years  |  Radius: 620 km  |  Planet Type: Dwarf  |  Moons: 2   |  Aphelion: 7,701.86 x 10^6 km  | Perihelion: 5,976.8 x 10^6 km  |  Orbit's inclination: 28.96 degrees ;"></a-text>
 	<a-entity position="0 0 0">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
-		
+		<a-cylinder color="orange" rotation="90 0 90" height="28" position="14 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="27.5 0.2 0" mixin="texto" ></a-text>
 		<a-entity id="haumea" rotation="28.2 2 0" scale="1 1 0.982">
 			<a-cylinder position="0.5 0 0" color="yellow" rotation="90 0 90" height="55" mixin="eixos"></a-cylinder>
+			<a-text value="line of nodes" position="-26 0.2 0" mixin="texto" ></a-text>
 			<a-entity rotation="0 121.9 0">
-					<a-cylinder position="-1 0 0" color="red" rotation="90 0 90" height="55" mixin="eixos"></a-cylinder>
+					<a-cylinder position="-1 0 0" color="red" rotation="90 0 90" height="55.5" mixin="eixos"></a-cylinder>
 					<a-text value="ph" mixin="texto" position="26.08 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-28.12 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-28.8 0.3 0"></a-text>
 					<a-entity position="-1.02 0 0">
 						<a-entity rotation="0 170 0">
 							<a-sphere src="#haumea1" radius="0.03" position="27.1 0 0" scale="2 1 1.528" mixin="esferas">
@@ -49,6 +54,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="27.1" position="0.5 0 -0.5" rotation="-90 0 0" segments="150"></a-circle>
 	</a-entity>
   </a-scene>
  </body>
