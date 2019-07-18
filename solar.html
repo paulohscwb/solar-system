@@ -1,7 +1,7 @@
 <!doctype HTML>
   <html>
     <head>
-	<script src="https://aframe.io/releases/0.9.0/aframe.js"></script>
+	<script src="https://aframe.io/releases/0.8.2/aframe.js"></script>
 	<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body style='margin: 0; overflow: hidden;'>
@@ -442,18 +442,21 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
-		<a-entity id="marte3" rotation="1.9 49.57 0" scale="1 1 0.98">
+		<a-cylinder color="orange" rotation="90 0 90" height="5.5" position="2.5 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="4.9 0.2 0" mixin="texto" ></a-text>		
+		<a-entity id="marte" rotation="1.9 49.57 0" scale="1 1 0.98">
 				<a-cylinder position="-0.1 0 0" color="yellow" rotation="90 0 90" height="10.6" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-5 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 336 0">
-					<a-cylinder position="-0.1 0 0" color="red" rotation="90 0 90" height="10.6" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="4.86 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-5.34 0.3 0"></a-text>
+					<a-cylinder position="-0.1 0 0" color="red" rotation="90 0 90" height="11.2" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="4.9 0.2 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-5.8 0.2 0"></a-text>
 					<a-entity position="-0.24 0 0">
 						<a-entity rotation="0 12 0">
 							<a-sphere src="#marte1" radius="0.14" position="5.1 0 0" scale="1 1 1.004" mixin="esferas">
 								<a-animation mixin="anima1" dur="16780" from="25.19 0 0" to="25.19 360 0"></a-animation>
 							</a-sphere>
-							<a-cylinder color="green" position="5.1 0 0" height="0.6" mixin="eixos">
+							<a-cylinder color="green" position="5.1 0 0" height="0.8" mixin="eixos">
 								<a-animation mixin="anima1" dur="16780" from="25.19 0 0" to="25.19 360 0"></a-animation>
 							</a-cylinder>
 							<a-text value="MARS" mixin="texto" position="5.1 0.3 0"></a-text>
@@ -463,6 +466,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" position="-0.2 0 0.2" radius="5.1" rotation="-90 0 0" segments="128"></a-circle>
 	     </a-entity>
 	 </a-marker>
 	   
