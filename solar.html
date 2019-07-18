@@ -42,7 +42,8 @@
         <a-light type="ambient" intensity="1.3" color="grey"></a-light>
 
         <a-marker preset="hiro">
-	    <a-entity id="sistema" position="1.5 4 0" scale="0.1 0.1 0.1">
+	    <a-link mixin="lnk" href="vr/solar.html"></a-link>
+	    <a-entity id="sistema" position="1.5 0 0" scale="0.1 0.1 0.1">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
@@ -256,11 +257,11 @@
 				</a-entity>
 		</a-entity>
 	    </a-entity>
-	    <a-link mixin="lnk" href="vr/solar.html"></a-link>
 	 </a-marker>
 	 
 	 <a-marker preset="kanji">
-	    <a-entity id="sistema2" position="1.5 4 0" scale="0.11 0.11 0.11">
+	    <a-link mixin="lnk" href="vr/solar1.html"></a-link>
+	    <a-entity id="sistema2" position="1.5 0 0" scale="0.11 0.11 0.11">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
@@ -399,11 +400,11 @@
 				</a-entity>
 		</a-entity>
 	    </a-entity>
-	    <a-link mixin="lnk" href="vr/solar1.html"></a-link>
 	 </a-marker>
 
 	 <a-marker type="barcode" value="19">
-	    <a-entity id="jupiter2" position="1.5 2 0" scale="0.15 0.15 0.15">
+	    <a-link mixin="lnk" href="vr/jupiter.html"></a-link>
+	    <a-entity id="jupiter2" position="1.5 0 0" scale="0.15 0.15 0.15">
 	        <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>		    
@@ -433,7 +434,6 @@
 		</a-entity>
 		<a-circle mixin="orbita" radius="9.4" position="0 0 0.2" rotation="-90 0 0" segments="128"></a-circle>
 	     </a-entity>
-	     <a-link mixin="lnk" href="vr/jupiter.html"></a-link>
 	 </a-marker>
 	   
 	 <a-marker type="barcode" value="20">
