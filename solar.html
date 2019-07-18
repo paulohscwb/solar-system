@@ -25,7 +25,7 @@
 	  <img id="haumea1" src="imagens/2k_haumea.jpg">
 	  <img id="eris1" src="imagens/2k_eris.jpg">
 	  <a-mixin id="texto" text="width: 13; side:double; color: #404040"></a-mixin>
-	  a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
+	  <a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
 	  <a-mixin id="orbita" material="color: white; opacity:0.15; side:double;"></a-mixin>
   	  <a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double;"></a-mixin>
 	  <a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.01; segments-tubular:300;" 
@@ -261,7 +261,7 @@
 	 
 	 <a-marker preset="kanji">
 	    <a-link mixin="lnk" href="vr/solar1.html"></a-link>
-	       <a-entity id="sistema" position="0 2.5 0" scale="0.17 0.17 0.17">
+	       <a-entity id="sistema2" position="0 2.5 0" scale="0.17 0.17 0.17">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
@@ -476,12 +476,15 @@
 	        <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="12.5" position="7 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="12.8 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="2.5 113.71 0" scale="1 1 0.998">
 				<a-cylinder color="yellow" rotation="90 0 90" height="26.5" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-12 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 92.4 0">
-					<a-cylinder color="red" rotation="90 0 90" height="26.5" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="12.43 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-13.17 0.3 0"></a-text>
+					<a-cylinder color="red" rotation="90 0 90" height="27" position="-0.3 0 0" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="12.6 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-13.8 0.3 0"></a-text>
 					<a-entity position="-0.37 0 0">
 						<a-entity rotation="0 77 0">
 							<a-sphere src="#saturno1" radius="0.58" position="12.8 0 0" scale="1 1 1.002" mixin="esferas">
@@ -500,6 +503,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="12.8" rotation="-90 0 0" segments="128"></a-circle>
 	     </a-entity>
 	 </a-marker>
 	   
@@ -509,12 +513,15 @@
 	        <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="18.5" position="9 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="18 0.2 0" mixin="texto" ></a-text>		
 		<a-entity rotation="0.8 74.23 0" scale="1 1 0.999">
-				<a-cylinder position="0.4 0 0" color="yellow" rotation="90 0 90" height="36.5" mixin="eixos"></a-cylinder>
+				<a-cylinder position="0.4 0 0" color="yellow" rotation="90 0 90" height="37" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-17.5 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 170.9 0">
-					<a-cylinder position="-0.4 0 0" color="red" rotation="90 0 90" height="36.5" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="17.68 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-18.52 0.3 0"></a-text>
+					<a-cylinder position="-0.4 0 0" color="red" rotation="90 0 90" height="37" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="17.7 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-19 0.3 0"></a-text>
 					<a-entity position="-0.42 0 0"> 
 						<a-entity rotation="0 20 0">
 							<a-sphere src="#urano1" radius="0.38" position="18.1 0 0" scale="1 1 1.001" mixin="esferas">
@@ -523,16 +530,17 @@
 							<a-ring color="teal" radius-inner=".7" radius-outer=".73" position="18.1 0 0" side="double" segments-theta="120">
 								<a-animation mixin="anima1" dur="14098" from="97.77 0 0 " to="97.77 -360 0"></a-animation>
 							</a-ring>
-							<a-cylinder color="green" position="18.1 0 0" height="1.5" mixin="eixos">
+							<a-cylinder color="green" position="18.1 0 0" height="1.8" mixin="eixos">
 								<a-animation mixin="anima1" dur="14098" from="97.77 0 0 " to="97.77 -360 0"></a-animation>
 							</a-cylinder>
-							<a-text value="URANUS" mixin="texto" position="18.1 0.6 0"></a-text>
+							<a-text value="URANUS" mixin="texto" position="18.5 0.3 0"></a-text>
 						</a-entity>
 						<a-torus radius="18.1" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="2905925"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" position="0.2 0 -0.4" radius="18.1" rotation="-90 0 0" segments="128"></a-circle>
 	    </a-entity>
 	</a-marker>
 		 
@@ -542,8 +550,11 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="33" position="17 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="33 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="44.2 286.9 0" scale="1 1 0.898">
-				<a-cylinder position="-7 0 0" color="yellow" rotation="90 0 90" height="69" mixin="eixos"></a-cylinder>
+				<a-cylinder position="-7.5 0 0" color="yellow" rotation="90 0 90" height="69" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-40 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 35.87 0">
 					<a-cylinder position="-8 0 0" color="red" rotation="90 0 90" height="69" mixin="eixos"></a-cylinder>
 					<a-text value="ph" mixin="texto" position="25.6 0.3 0"></a-text>
@@ -560,6 +571,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" position="0 0 -7" radius="34" rotation="-90 0 0" segments="128"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -569,12 +581,15 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="26" position="13.5 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="26 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="28.96 16.6 0" scale="1 1 0.987">
 				<a-cylinder position="0 0 0" color="yellow" rotation="90 0 90" height="57" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-28 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 79.4 0">
-					<a-cylinder position="-2 0 0" color="red" rotation="90 0 90" height="57" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="25.71 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-30.29 0.3 0"></a-text>
+					<a-cylinder position="-2.5 0 0" color="red" rotation="90 0 90" height="57" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="25.7 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-30.9 0.3 0"></a-text>
 					<a-entity position="-2.29 0 0">
 						<a-entity rotation="0 200 0">
 							<a-sphere src="#makemake1" radius="0.064" position="28 0 0" scale="1 1 1.013" mixin="esferas">
@@ -587,6 +602,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="29" position="-2.2 0 -6.6" rotation="-90 0 0" segments="150"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -596,12 +612,15 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="28" position="14 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="27.5 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="28.2 2 0" scale="1 1 0.982">
 			<a-cylinder position="0.5 0 0" color="yellow" rotation="90 0 90" height="55" mixin="eixos"></a-cylinder>
+			<a-text value="line of nodes" position="-26 0.2 0" mixin="texto" ></a-text>
 			<a-entity rotation="0 121.9 0">
-					<a-cylinder position="-1 0 0" color="red" rotation="90 0 90" height="55" mixin="eixos"></a-cylinder>
+					<a-cylinder position="-1 0 0" color="red" rotation="90 0 90" height="55.5" mixin="eixos"></a-cylinder>
 					<a-text value="ph" mixin="texto" position="26.08 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-28.12 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-28.8 0.3 0"></a-text>
 					<a-entity position="-1.02 0 0">
 						<a-entity rotation="0 170 0">
 							<a-sphere src="#haumea1" radius="0.03" position="27.1 0 0" scale="2 1 1.528" mixin="esferas">
@@ -614,6 +633,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="27.1" position="0.5 0 -0.5" rotation="-90 0 0" segments="150"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -623,18 +643,21 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="7.5" position="3.5 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="7 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="10.6 157.85 0" scale="1 1 0.997">
 				<a-cylinder position="-0.1 0 0" color="yellow" rotation="90 0 90" height="14.3" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-6.8 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 80.7 0">
-					<a-cylinder position="-0.3 0 0" color="red" rotation="90 0 90" height="14.3" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="6.64 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-7.16 0.3 0"></a-text>
+					<a-cylinder position="-0.2 0 0" color="red" rotation="90 0 90" height="14.7" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="6.7 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-7.7 0.3 0"></a-text>
 					<a-entity position="-0.26 0 0">
 						<a-entity rotation="0 -23 0">
 							<a-sphere src="#ceres1" radius="0.052" position="6.9 0 0" scale="1 1 1.003" mixin="esferas">
 								<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
 							</a-sphere>
-							<a-cylinder color="green" position="6.9 0 0" height="0.25" mixin="eixos">
+							<a-cylinder color="green" position="6.9 0 0" height="0.4" mixin="eixos">
 								<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
 							</a-cylinder>
 							<a-text value="CERES" mixin="texto" position="6.9 0.25 0"></a-text>
@@ -644,6 +667,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" position="0 0 0.1" radius="6.9" rotation="-90 0 0" segments="128"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -653,18 +677,21 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="26" position="13 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="26 0.2 0" mixin="texto" ></a-text>		
 		<a-entity rotation="17.2 110.3 0" scale="1 1 0.969">
 				<a-cylinder position="3 0 0" color="yellow" rotation="90 0 90" height="53" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-23 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 224 0">
 					<a-cylinder position="-3.5 0 0" color="red" rotation="90 0 90" height="53" mixin="eixos"></a-cylinder>
 					<a-text value="ph" mixin="texto" position="22.5 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-29.5 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-30 0.3 0"></a-text>
 					<a-entity position="-3.5 0 0">
 						<a-entity rotation="0 -50 0">
 							<a-sphere src="#plutao1" radius="0.08" position="26 0 0" scale="1 1 1.032" mixin="esferas">
 								<a-animation mixin="anima1" dur="42000" from="313 0 0" to="313 -360 0"></a-animation>
 							</a-sphere>
-							<a-cylinder color="green" position="26 0 0" height="0.5" mixin="eixos">
+							<a-cylinder color="green" position="26 0 0" height="0.7" mixin="eixos">
 								<a-animation mixin="anima1" dur="42000" from="313 0 0" to="313 -360 0"></a-animation>
 							</a-cylinder>
 							<a-text value="PLUTO" mixin="texto" position="26 0.3 0"></a-text>
@@ -674,6 +701,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="26" position="0 0 -2.8" rotation="-90 0 0" segments="150"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -683,27 +711,31 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="22.7" position="12 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="22.8 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="1.8 131.72 0">
-				<a-cylinder position="0.1 0 0" color="yellow" rotation="90 0 90" height="46" mixin="eixos"></a-cylinder>
+				<a-cylinder position="0.1 0 0" color="yellow" rotation="90 0 90" height="47" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-22.5 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 44.9 0">
-					<a-cylinder position="-0.1 0 0" color="red" rotation="90 0 90" height="46" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="22.57 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-22.83 0.3 0"></a-text>
+					<a-cylinder position="-0.1 0 0" color="red" rotation="90 0 90" height="47" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="22.6 0.3 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-23.5 0.3 0"></a-text>
 					<a-entity position="-0.13 0 0">
 						<a-entity rotation="0 90 0">
 							<a-sphere src="#netuno1" radius="0.38" position="22.7 0 0" mixin="esferas">
 								<a-animation mixin="anima1" dur="13566" from="28.32 0 0" to="28.32 360 0"></a-animation>
 							</a-sphere>
-							<a-cylinder color="green" position="22.7 0 0" height="1.5" mixin="eixos">
+							<a-cylinder color="green" position="22.7 0 0" height="1.6" mixin="eixos">
 								<a-animation mixin="anima1" dur="13566" from="28.32 0 0" to="28.32 360 0"></a-animation>
 							</a-cylinder>
-							<a-text value="NEPTUNE" mixin="texto" position="22.7 0.6 0"></a-text>
+							<a-text value="NEPTUNE" mixin="texto" position="22.9 0.6 0"></a-text>
 						</a-entity>
 						<a-torus radius="22.7" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="4063052"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" position="0 0 0.1" radius="22.7" rotation="-90 0 0" segments="128"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -713,12 +745,15 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="4" position="2.5 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="4.2 0.2 0" mixin="texto" ></a-text>		
 		<a-entity rotation="0 102.9 0">
-			<a-cylinder position="0 0 0" color="yellow" rotation="90 0 90" height="8.4" mixin="eixos"></a-cylinder>
+			<a-cylinder position="0 0 0" color="yellow" rotation="90 0 90" height="9" mixin="eixos"></a-cylinder>
+			<a-text value="line of nodes" position="-4 0.2 0" mixin="texto" ></a-text>
 			<a-entity rotation="0 -11.26 0">
-				<a-cylinder position="0 0 0" color="red" rotation="90 0 90" height="8.4" mixin="eixos"></a-cylinder>
-				<a-text value="ph" mixin="texto" position="4.066 0.3 0"></a-text>
-				<a-text value="ap" mixin="texto" position="-4.134 0.3 0"></a-text>
+				<a-cylinder position="0 0 0" color="red" rotation="90 0 90" height="9" mixin="eixos"></a-cylinder>
+				<a-text value="ph" mixin="texto" position="4.1 0.2 0"></a-text>
+				<a-text value="ap" mixin="texto" position="-4.6 0.2 0"></a-text>
 				<a-entity position="-0.034 0 0">
 					<a-entity rotation="0 2 0">
 						<a-sphere src="#terra1" radius="0.19" position="4.1 0 0" mixin="esferas">
@@ -732,7 +767,7 @@
 								</a-entity>
 							</a-entity>
 						</a-sphere>
-						<a-cylinder color="green" position="4.1 0 0" height="0.8" mixin="eixos">
+						<a-cylinder color="green" position="4.1 0 0" height="1" mixin="eixos">
 							<a-animation mixin="anima1" dur="16615" from="23.16 0 0" to="23.16 360 0"></a-animation>
 						</a-cylinder>
 						<a-text value="EARTH" mixin="texto" position="4.1 0.4 0"></a-text>
@@ -742,6 +777,7 @@
 				</a-entity>
 			</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="4.1" rotation="-90 0 0" segments="128"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -751,18 +787,21 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="3.9" position="1.5 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="3.2 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="3.4 76.68 0" >
 				<a-cylinder color="yellow" rotation="90 0 90" height="7.3" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-3.8 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 131.5 0">
 					<a-cylinder color="red" rotation="90 0 90" height="7.3" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="3.49 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-3.51 0.3 0"></a-text>
+					<a-text value="ph" mixin="texto" position="3.6 0.2 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-4 0.2 0"></a-text>
 					<a-entity position="-0.01 0 0">
 						<a-entity rotation="0 -74 0">
 							<a-sphere src="#venus1" radius="0.19" position="3.5 0 0" mixin="esferas">
 								<a-animation mixin="anima1" dur="259014" from="177.3 0 0" to="177.3 -360 0"></a-animation>
 							</a-sphere>
-							<a-cylinder color="green" position="3.5 0 0" height="0.8" mixin="eixos">
+							<a-cylinder color="green" position="3.5 0 0" height="1" mixin="eixos">
 								<a-animation mixin="anima1" dur="259014" from="177.3 0 0" to="177.3 -360 0"></a-animation>
 							</a-cylinder>
 							<a-text value="VENUS" mixin="texto" position="3.5 0.4 0"></a-text>
@@ -772,6 +811,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" radius="3.5" rotation="-90 0 0" segments="128"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -781,18 +821,21 @@
 	       <a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
+		<a-cylinder color="orange" rotation="90 0 90" height="2.8" position="1.5 0 0" mixin="eixos"></a-cylinder>
+		<a-text value="d" position="2.7 0.2 0" mixin="texto" ></a-text>
 		<a-entity rotation="7 48.33 0" scale="1 1 0.98">
-				<a-cylinder color="yellow" rotation="90 0 90" height="5.4" mixin="eixos"></a-cylinder>
+				<a-cylinder color="yellow" rotation="90 0 90" height="7.5" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-3.8 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 77.45 0">
-					<a-cylinder position="-0.28 0 0" color="red" rotation="90 0 90" height="5.4" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="2.32 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-2.88 0.3 0"></a-text>
+					<a-cylinder position="-0.28 0 0" color="red" rotation="90 0 90" height="6.2" mixin="eixos"></a-cylinder>
+					<a-text value="ph" mixin="texto" position="2.32 0.2 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-3.4 0.2 0"></a-text>
 					<a-entity position="-0.28 0 0">
 						<a-entity rotation="0 80 0">
 							<a-sphere src="#mercurio1" radius="0.12" position="2.6 0 0" scale="1 1 1.022" mixin="esferas">
 								<a-animation mixin="anima1" dur="127244" from="0.03 0 0" to="0.03 360 0"></a-animation>
 							</a-sphere>
-							<a-cylinder color="green" position="2.6 0 0" height="0.5" mixin="eixos">
+							<a-cylinder color="green" position="2.6 0 0" height="0.7" mixin="eixos">
 								<a-animation mixin="anima1" dur="127244" from="0.03 0 0" to="0.03 360 0"></a-animation>
 							</a-cylinder>
 							<a-text value="MERCURY" mixin="texto" position="2.6 0.3 0"></a-text>
@@ -802,6 +845,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
+		<a-circle mixin="orbita" position="0.2 0 0.3" radius="2.6" rotation="-90 0 0" segments="128"></a-circle>
 	    </a-entity>
 	</a-marker>
 	
@@ -814,6 +858,7 @@
 		<a-cylinder color="green" position="0 0 0" height="5" mixin="eixos">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-cylinder>
+		<a-text value="hP" mixin="texto" position="0.1 2.3 0"></a-text>	
 	    </a-entity>
 	</a-marker>
 	   
