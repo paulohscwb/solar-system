@@ -14,7 +14,9 @@
 		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
 		<img id="sol" src="../imagens/2k_sun.jpg">
 		<img id="venus1" src="../imagens/2k_venus_surface.jpg">
-		<a-mixin id="texto" text="width: 10; side:double; color: white"></a-mixin>
+		<a-mixin id="texto" text="width: 7; side:double; color: white"></a-mixin>
+		<a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
+		<a-mixin id="orbita" material="color: white; opacity:0.05; side:double;"></a-mixin>
 		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
 			material="color: cyan; opacity:0.7; side:double;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
@@ -25,33 +27,37 @@
 	</a-assets>
 		
 	<a-sky src="#vialactea"></a-sky>
-
+	<a-text mixin="texto1" width="5" position="0 -1 5" rotation="-45 0 0" 
+			  text="value:VENUS  |  Day: 243 Earth days  |  Year: 225 Earth days  |  Radius: 6,052 km  |  Planet Type: Terrestrial  |  Moons: 0  |  Aphelion: 108.9 x 10^6 km  | Perihelion: 107.5 x 10^6 km  |  Orbit's inclination: 3.4 degrees ;"></a-text>
 	<a-entity position="0 0 0">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
 			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
-
+		<a-cylinder color="orange" rotation="90 0 90" height="3.9" position="1.5 0 0" mixin="eixos"></a-cylinder>
+		<a-circle mixin="orbita" radius="3.5" rotation="-90 0 0" segments="64"></a-circle>
+		<a-text value="d" position="3.2 0.2 0" mixin="texto" ></a-text>
 		<a-entity id="venus" rotation="3.4 76.68 0" >
 				<a-cylinder color="yellow" rotation="90 0 90" height="7.3" mixin="eixos"></a-cylinder>
+				<a-text value="line of nodes" position="-3.8 0.2 0" mixin="texto" ></a-text>
 				<a-entity rotation="0 131.5 0">
 					<a-cylinder color="red" rotation="90 0 90" height="7.3" mixin="eixos"></a-cylinder>
-					<a-text value="ph" mixin="texto" position="3.49 0.3 0"></a-text>
-					<a-text value="ap" mixin="texto" position="-3.51 0.3 0"></a-text>
+					<a-text value="ph" mixin="texto" position="3.49 0.2 0"></a-text>
+					<a-text value="ap" mixin="texto" position="-3.51 0.2 0"></a-text>
 					<a-entity position="-0.01 0 0">
 						<a-entity rotation="0 -74 0">
 							<a-sphere src="#venus1" radius="0.19" position="3.5 0 0" mixin="esferas">
 								<a-animation mixin="anima1" dur="259014" from="177.3 0 0" to="177.3 -360 0"></a-animation>
 							</a-sphere>
-							<a-cylinder color="green" position="3.5 0 0" height="0.8" mixin="eixos">
+							<a-cylinder color="green" position="3.5 0 0" height="1" mixin="eixos">
 								<a-animation mixin="anima1" dur="259014" from="177.3 0 0" to="177.3 -360 0"></a-animation>
 							</a-cylinder>
-							<a-text value="VENUS" mixin="texto" position="3.5 0.4 0"></a-text>
+							<a-text value="hP" mixin="texto" position="3.5 0.4 0"></a-text>
 						</a-entity>
 						<a-torus radius="3.5" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="249059"></a-animation>
 					</a-entity>
 				</a-entity>
-			</a-entity>
+		</a-entity>
 	</a-entity>
 		
   </a-scene>
