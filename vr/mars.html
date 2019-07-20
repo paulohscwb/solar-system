@@ -8,7 +8,7 @@
   <body>
  <a-scene cursor="rayOrigin:mouse">
 
-    <a-entity camera look-controls orbit-controls="target: 0 0 0; minDistance: 0.5; maxPolarAngle: 360; maxDistance: 360; initialPosition: 0 2 9"></a-entity>
+    <a-entity camera look-controls orbit-controls="target: 0 0 0; maxPolarAngle: 360; initialPosition: 0 2 9"></a-entity>
 
 	<a-assets>
 		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
@@ -16,7 +16,7 @@
 		<img id="marte1" src="../imagens/2k_mars.jpg">
 		<a-mixin id="texto" text="width: 7; side:double; color: white"></a-mixin>
 		<a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
-		<a-mixin id="orbita" material="color: white; opacity:0.15; side:double;"></a-mixin>
+		<a-mixin id="orbita" geometry="segments:150;" rotation="-90 0 0" material="color: white; opacity:0.15; side:double;"></a-mixin>
 		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
 			material="color: cyan; opacity:0.7; side:double;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
@@ -57,7 +57,7 @@
 					</a-entity>
 				</a-entity>
 		</a-entity>
-		<a-circle mixin="orbita" position="-0.2 0 0.2" radius="5.1" rotation="-90 0 0" segments="128"></a-circle>
+		<a-circle mixin="orbita" position="-0.2 0 0.2" radius="5.1"></a-circle>
 	</a-entity>
 		
   </a-scene>
