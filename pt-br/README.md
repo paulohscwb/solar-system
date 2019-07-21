@@ -3,8 +3,8 @@
  <br><b>contato:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/solar-system/">english version</a>
  <br><br>Os planetas do Sistema Solar podem ser visualizados em AR com os marcadores indicados, e através dos links criados nos marcadores, os planetas podem ser vistos em RV. Para tornar o ambiente programado em RV e RA mais próximo da realidade, foram incluídos os períodos orbital e de rotação de cada planeta, as inclinações das órbitas e as distâncias afélio e periélio em relação ao Sol.
-<br>  O ambiente AR foi criado com os scripts desenvolvidos por <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
-<br>Os scripts de órbita desenvolvidos por <b>Till Hinrichs</b> foram usados nas páginas de RV: <a href="https://github.com/tizzle/aframe-orbit-controls-component" target="_blank">A-frame orbit controls component</a>.
+<br><br>  O ambiente AR foi criado com os scripts desenvolvidos por <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
+<br>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de RV: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
 <br>Todas as informações sobre o sistema solar foram retiradas do site da NASA: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>. 
 <br>O objetivo deste projeto é mostrar os planetas em RA e RV com a tecnologia A-frame.
 <br>As texturas dos planetas foram utilizadas do site Solar System Scope: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
