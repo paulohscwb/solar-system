@@ -12,7 +12,7 @@
  <a-scene >
 <a-link class="lnk" href="topo.html" title="Topografia" position="-5 2 0" rotation="0 -90 0" scale="0.3 0.3 0.3" highlightedColor="orange"></a-link>
     <a-entity id="cameraRig">
-		  <a-camera look-controls position="0 -1 23" 
+		  <a-camera look-controls position="0 -4 16" 
 				capture-mouse
                 raycaster="objects: .esferas, .lnk" cursor="rayOrigin:mouse"
                 static-body="shape: sphere; sphereRadius: 0.001"
@@ -88,7 +88,7 @@
 		
 	<a-sky src="#vialactea"></a-sky>
 
-	 <a-entity mixin="piso" position="0 -3 0" static-body ></a-entity>
+	 <a-entity mixin="piso" position="0 -6 0" static-body ></a-entity>
 	 
 	<a-entity position="0 0 0">
 		<a-sphere src="#sol" radius="2" mixin="esferas">
