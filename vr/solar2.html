@@ -10,7 +10,7 @@
 </head>
   <body>
  <a-scene >
-<a-link class="lnk" href="topo.html" title="Topografia" position="-5 2 0" rotation="0 -90 0" scale="0.3 0.3 0.3" highlightedColor="orange"></a-link>
+<a-link class="lnk" href="topo.html" title="Topografia" position="-5 -4 0" rotation="0 -90 0" scale="0.3 0.3 0.3" highlightedColor="orange"></a-link>
     <a-entity id="cameraRig">
 		  <a-camera look-controls position="0 -4 16" 
 				capture-mouse
@@ -64,7 +64,7 @@
 		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.4; roughness:0.7;"></a-mixin>
 		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
 		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
-    <a-mixin id="piso" static-body geometry="primitive: box; height:0.1; width:40; depth:40;" 
+    <a-mixin id="piso" static-body geometry="primitive: box; height:0.1; width:30; depth:30;" 
 				 material="color:#FFF; opacity:0; side:double; transparent: true"></a-mixin>
     <a-mixin id="controllers-right" vive-controls="hand: right"
                  oculus-touch-controls="hand: right"
