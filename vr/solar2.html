@@ -39,6 +39,14 @@
 			<a-entity id="lhand" mixin="controllers-left point"></a-entity>
       </a-entity>
 
+	 		<a-entity light="type: ambient; color: #FFF; intensity:0.7;"></a-entity>
+		<a-entity mixin="luz" position="-1 0 1"></a-entity> 
+		<a-entity mixin="luz" position="1 0 1"></a-entity>
+		<a-entity mixin="luz" position="-1 0 -1"></a-entity>
+		<a-entity mixin="luz" position="1 0 -1"></a-entity>
+		<a-entity mixin="luz" position="0 1 0" intensity="0.5"></a-entity>
+		<a-entity mixin="luz" position="0 -1 0" intensity="0.1"></a-entity>
+	 
 	<a-assets>
 		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
 		<img id="sol" src="../imagens/2k_sun.jpg">
@@ -84,6 +92,7 @@
                               colliderEndEvent:raycaster-intersection-cleared;
                               colliderEndEventProperty: clearedEls;">
 		</a-mixin>
+	<a-mixin id="luz" light="type: directional; color: #BBB; intensity: 0.5"></a-mixin>
 	</a-assets>
 		
 	<a-sky src="#vialactea"></a-sky>
