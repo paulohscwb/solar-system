@@ -39,7 +39,7 @@
 			<a-entity id="lhand" mixin="controllers-left point"></a-entity>
       </a-entity>
 
-	 		<a-entity light="type: ambient; color: #FFF; intensity:0.7;"></a-entity>
+	 	<a-entity light="type: ambient; color: #FFF; intensity:0.7;"></a-entity>
 		<a-entity mixin="luz" position="-1 0 1"></a-entity> 
 		<a-entity mixin="luz" position="1 0 1"></a-entity>
 		<a-entity mixin="luz" position="-1 0 -1"></a-entity>
@@ -72,7 +72,7 @@
 		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.4; roughness:0.7;"></a-mixin>
 		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
 		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
-    <a-mixin id="piso" static-body geometry="primitive: cylinder; height:0.1; radius:30;" 
+    <a-mixin id="piso" static-body geometry="primitive: cylinder; height:0.1; radius:28;" 
 				 material="color:#FFF; opacity:0; transparent: true"></a-mixin>
     <a-mixin id="controllers-right" vive-controls="hand: right"
                  oculus-touch-controls="hand: right"
