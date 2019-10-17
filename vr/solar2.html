@@ -11,33 +11,21 @@
   <body>
  <a-scene >
 <a-link class="lnk" href="topo.html" title="Topografia" position="-5 -2 0" rotation="0 -90 0" scale="0.3 0.3 0.3" highlightedColor="orange"></a-link>
-    <a-entity id="cameraRig">
-		  <a-camera look-controls  
-				capture-mouse
-                raycaster="objects: .esferas, .lnk" cursor="rayOrigin:mouse"
-                static-body="shape: sphere; sphereRadius: 0.001"
+    		<a-entity id="cameraRig">
+			<a-camera id="head" look-controls capture-mouse cursor="rayOrigin:mouse"
+                static-body="shape: sphere; sphereRadius: 0.1"
                 super-hands="colliderEvent: raycaster-intersection;
                              colliderEventProperty: els;
                              colliderEndEvent:raycaster-intersection-cleared;
-                             colliderEndEventProperty: clearedEls;"></a-camera>
-		        <a-entity id="left-hand"
-                  teleport-controls="collisionEntities: [mixin='piso']; cameraRig: #cameraRig; "
-                  vive-controls="hand: left"
-                  oculus-touch-controls="hand: left"
-                  microsoft-motion-controls="hand: left"
-                  daydream-controls="left" gearvr-controls="left">
-        </a-entity>
-        <a-entity id="right-hand"
-                  teleport-controls="collisionEntities: [mixin='piso']; cameraRig: #cameraRig; "
-                  vive-controls="hand: right"
-                  microsoft-motion-controls="hand: right"
-                  oculus-touch-controls="hand: right"
-                  daydream-controls="right" gearvr-controls="right">
-        </a-entity>
-		<a-entity laser-controls raycaster="showLine:true; far:3;" line="color:rgb(0,255,0); opacity:0.33;"></a-entity>
-			<a-entity id="rhand" mixin="controllers-right point"></a-entity>
-			<a-entity id="lhand" mixin="controllers-left point"></a-entity>
-      </a-entity>
+                             colliderEndEventProperty: clearedEls;">		 
+			</a-camera>
+		</a-entity>
+
+		<a-entity hand-controls="right" teleport-controls="cameraRig: #cameraRig; collisionEntities: [mixin='piso'];
+			teleportOrigin: #head; button: trigger;"></a-entity>
+		<a-entity laser-controls mixin="point"></a-entity>
+		<a-entity id="rhand" mixin="controllers-right"></a-entity>
+		<a-entity id="lhand" mixin="controllers-left"></a-entity>
 
 	 	<a-entity light="type: ambient; color: #FFF; intensity:0.7;"></a-entity>
 		<a-entity mixin="luz" position="-1 0 1"></a-entity> 
@@ -84,8 +72,8 @@
                  oculus-touch-controls="hand: left"
                  windows-motion-controls="hand: left">
         </a-mixin>
-        <a-mixin id="point" raycaster="showLine: false; objects: .lnk"
-                 collision-filter="collisionForces: false"
+        <a-mixin id="point" raycaster="showLine: false; objects: .lnk; line="color:rgb(255,255,255); opacity:0.33;"
+                 collision-filter="collisionForces: true"
                  static-body="shape: sphere; sphereRadius: 0.001"
                  super-hands="colliderEvent: raycaster-intersection;
                               colliderEventProperty: els;
