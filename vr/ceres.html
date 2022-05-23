@@ -46,6 +46,9 @@
 							<a-sphere src="#ceres1" radius="0.052" position="6.9 0 0" scale="1 1 1.003" mixin="esferas">
 								<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
 							</a-sphere>
+							<a-light type="spot" position="3 0 0" color="white" intensity="0.7">
+								<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
+							</a-light>
 							<a-cylinder color="green" position="6.9 0 0" height="0.4" mixin="eixos">
 								<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
 							</a-cylinder>
@@ -58,9 +61,6 @@
 		</a-entity>
 		<a-circle mixin="orbita" position="0 0 0.1" radius="6.9" rotation="-90 0 0" segments="128"></a-circle>
 	</a-entity>
-	<a-light type="spot" position="3 0 0" color="white" intensity="0.7">
-		<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
-	</a-light>
 	<a-light type="ambient" color="white" intensity="0.7"></a-light>
   </a-scene>
  </body>
