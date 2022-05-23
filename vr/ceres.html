@@ -15,14 +15,14 @@
 		<img id="ceres1" src="../imagens/2k_ceres.jpg">
 		<a-mixin id="texto" text="width: 7; side:double; color: white"></a-mixin>
 		<a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
-		<a-mixin id="orbita" material="color: white; opacity:0.15; side:double; metalness:0.5; roughness:0.6;"></a-mixin>
+		<a-mixin id="orbita" material="color: white; opacity:0.15; side:double; metalness:0.5; roughness:0.3;"></a-mixin>
 		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
-			material="color: cyan; opacity:0.7; side:double; metalness:0.5; roughness:0.4;" event-set__enter="_event: mouseenter; opacity: 1"
+			material="color: cyan; opacity:0.7; side:double; metalness:0.5; roughness:0.3;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
 		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.5; roughness:0.6;"></a-mixin>
 		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
 		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
-		<a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6; metalness:0.5; roughness:0.6;"></a-mixin>
+		<a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6; metalness:0.5; roughness:0.3;"></a-mixin>
 	</a-assets>
 		
 	<a-sky src="#vialactea"></a-sky>
@@ -59,7 +59,7 @@
 		<a-circle mixin="orbita" position="0 0 0.1" radius="6.9" rotation="-90 0 0" segments="128"></a-circle>
 	</a-entity>
 	<a-light type="directional" position="1 1 1" color="white" intensity="0.7" target="#ceres"></a-light>
-	<a-light type="ambient" color="white" intensity="0.7"></a-light>
+	<a-entity light="type: hemisphere; color: #33C; groundColor: #3C3; intensity: 0.8"></a-entity>
   </a-scene>
  </body>
 </html>
