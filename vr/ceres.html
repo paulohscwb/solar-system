@@ -15,7 +15,7 @@
 		<img id="ceres1" src="../imagens/2k_ceres.jpg">
 		<a-mixin id="texto" text="width: 7; side:double; color: white"></a-mixin>
 		<a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
-		<a-mixin id="orbita" material="color: white; opacity:0.15; side:double; metalness:0.5; roughness:0.3;"></a-mixin>
+		<a-mixin id="orbita" material="color: white; opacity:0.15; side:double; metalness:0.5; roughness:0.6;"></a-mixin>
 		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
 			material="color: cyan; opacity:0.7; side:double; metalness:0.5; roughness:0.3;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
@@ -58,8 +58,10 @@
 		</a-entity>
 		<a-circle mixin="orbita" position="0 0 0.1" radius="6.9" rotation="-90 0 0" segments="128"></a-circle>
 	</a-entity>
-	<a-light type="directional" position="1 1 1" color="white" intensity="0.7" target="#ceres"></a-light>
-	<a-entity light="type: hemisphere; color: #33C; groundColor: #3C3; intensity: 0.8"></a-entity>
+	<a-light type="spot" position="3 0 0" color="white" intensity="0.7">
+		<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
+	</a-light>
+	<a-light type="ambient" color="white" intensity="0.7"></a-light>
   </a-scene>
  </body>
 </html>
