@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
 	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
 	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
 </head>
@@ -23,6 +23,8 @@
 			material="color: cyan; opacity:0.7; side:double; metalness:0.5; roughness:0.3;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
 		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.5; roughness:0.6;"></a-mixin>
+		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
+		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
 		<a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6; metalness:0.5; roughness:0.3;"></a-mixin>
 	</a-assets>
 		
@@ -30,7 +32,8 @@
 	<a-text mixin="texto1" width="6" position="0 -1 14" rotation="-45 0 0" 
 			  text="value:SATURN  |  Day: 10.7 hours  |  Year: 29 Earth years  |  Radius: 58,232 km  |  Planet Type: Gas giant  |  Moons: 53  |  Aphelion: 1,514.5 x 10^6 km  | Perihelion: 1,352.6 x 10^6 km  |  Orbit's inclination: 2.5 degrees ;"></a-text>
 	<a-entity position="0 0 0">
-		<a-sphere src="#sol" radius="2" mixin="esferas" animation="property:rotation; easing:linear; loop:true; from: 7.25 0 0; to: 7.25 360 0; dur: 98296">
+		<a-sphere src="#sol" radius="2" mixin="esferas">
+			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="12.5" position="7 0 0" mixin="eixos"></a-cylinder>
 		<a-text value="d" position="12.8 0.2 0" mixin="texto" ></a-text>
@@ -41,18 +44,22 @@
 					<a-cylinder color="red" rotation="90 0 90" height="27" position="-0.3 0 0" mixin="eixos"></a-cylinder>
 					<a-text value="ph" mixin="texto" position="12.6 0.3 0"></a-text>
 					<a-text value="ap" mixin="texto" position="-13.8 0.3 0"></a-text>
-					<a-entity position="-0.37 0 0" animation="property:rotation; easing:linear; to:0 360 0; loop:true; dur: 1722445">
+					<a-entity position="-0.37 0 0">
 						<a-entity rotation="0 77 0">
-							<a-sphere src="#saturno1" radius="0.58" position="12.8 0 0" scale="1 1 1.002" mixin="esferas" animation="property:rotation; easing:linear; loop:true; from: 26.73 0 0; to: 26.73 360 0; dur: 11146">
+							<a-sphere src="#saturno1" radius="0.58" position="12.8 0 0" scale="1 1 1.002" mixin="esferas">
+								<a-animation mixin="anima1" dur="11146" from="26.73 0 0" to="26.73 360 0"></a-animation>
 							</a-sphere>
-							<a-ring src="#saturno_a" radius-inner="0.8" radius-outer="1.2" position="12.8 0 0" side="double" transparent="true" segments-theta="150" animation="property:rotation; easing:linear; loop:true; from: 116.73 0 0; to: 116.73 360 0; dur: 11146">
+							<a-ring src="#saturno_a" radius-inner="0.8" radius-outer="1.2" position="12.8 0 0" side="double" transparent="true" segments-theta="150">
+								<a-animation mixin="anima1" dur="11146" from="116.73 0 0 " to="116.73 360 0"></a-animation>
 							</a-ring>
-							<a-cylinder color="green" position="12.8 0 0" height="2.4" mixin="eixos" animation="property:rotation; easing:linear; loop:true; from: 26.73 0 0; to: 26.73 360 0; dur: 11146">
+							<a-cylinder color="green" position="12.8 0 0" height="2.4" mixin="eixos">
+								<a-animation mixin="anima1" dur="11146" from="26.73 0 0 " to="26.73 360 0"></a-animation>
 							</a-cylinder>
 							<a-text value="SATURN" mixin="texto" position="12.8 0.8 0"></a-text>
 							<a-light type="spot" position="0 0 0" color="white" intensity="0.6" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="12.8" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="1722445"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
