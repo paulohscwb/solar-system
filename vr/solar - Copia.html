@@ -1,40 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-event-set-component@^5.0.0/dist/aframe-event-set-component.min.js"></script>
-  <script src="https://unpkg.com/super-hands@3.0.0/dist/super-hands.min.js"></script>
-  <script src="https://fernandojsg.github.io/aframe-teleport-controls/dist/aframe-teleport-controls.min.js"></script>
-    <script src="https://rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
-    <script src="https://unpkg.com/aframe-physics-extras/dist/aframe-physics-extras.min.js"></script>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
+	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
 </head>
   <body>
 <div style='color:#f0f8ff; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2020 Paulo Henrique Siqueira</div>
- <a-scene>
-<a-link class="lnk" href="topo.html" title="Topografia" position="-5 -2 0" rotation="0 -90 0" scale="0.3 0.3 0.3" highlightedColor="orange"></a-link>
-    		<a-entity id="cameraRig" >
-			<a-camera id="head" position="0 -2 0" look-controls capture-mouse cursor="rayOrigin:mouse"
-                static-body="shape: sphere; sphereRadius: 0.1"
-                super-hands="colliderEvent: raycaster-intersection;
-                             colliderEventProperty: els;
-                             colliderEndEvent:raycaster-intersection-cleared;
-                             colliderEndEventProperty: clearedEls;">		 
-			</a-camera>
-			<a-entity hand-controls="right" teleport-controls="cameraRig: #cameraRig; collisionEntities: [mixin='piso'];
-				teleportOrigin: #head; button: grip;"></a-entity>
-			<a-entity laser-controls mixin="point"></a-entity>
-			<a-entity id="rhand" mixin="controllers-right"></a-entity>
-			<!--<a-entity id="lhand" mixin="controllers-left"></a-entity>-->
-		</a-entity>
+ <a-scene cursor="rayOrigin:mouse">
 
-	 	<a-entity light="type: ambient; color: #FFF; intensity:0.7;"></a-entity>
-		<a-entity mixin="luz" position="-1 0 1"></a-entity> 
-		<a-entity mixin="luz" position="1 0 1"></a-entity>
-		<a-entity mixin="luz" position="-1 0 -1"></a-entity>
-		<a-entity mixin="luz" position="1 0 -1"></a-entity>
-		<a-entity mixin="luz" position="0 1 0" intensity="0.5"></a-entity>
-		<a-entity mixin="luz" position="0 -1 0" intensity="0.1"></a-entity>
-	 
+    <a-entity camera look-controls orbit-controls="target: 0 0 0; maxPolarAngle: 360; initialPosition: 0 2 8"></a-entity>
+
 	<a-assets>
 		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
 		<img id="sol" src="../imagens/2k_sun.jpg">
@@ -55,176 +31,167 @@
 		<img id="eris1" src="../imagens/2k_eris.jpg">
 		<a-mixin id="texto" text="width: 12; side:double; color: white"></a-mixin>
 		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.01; segments-tubular:300;" 
-			material="color: #80c1ff; opacity:0.85; side:double;" event-set__enter="_event: mouseenter; opacity: 1"
+			material="color: #80c1ff; opacity:0.85; side:double; metalness:0.5; roughness:0.3;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
-		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.4; roughness:0.7;"></a-mixin>
-    <a-mixin id="piso" static-body geometry="primitive: cylinder; height:0.1; radius:26;" 
-				 material="color:#FFF; opacity:0.1; transparent: true"></a-mixin>
-    <a-mixin id="controllers-right" vive-controls="hand: right"
-                 oculus-touch-controls="hand: right"
-                 windows-motion-controls="hand: right"
-                 gearvr-controls daydream-controls
-                 oculus-go-controls>
-        </a-mixin>
-        <!--<a-mixin id="controllers-left" vive-controls="hand: left"
-                 oculus-touch-controls="hand: left"
-                 windows-motion-controls="hand: left">
-        </a-mixin>-->
-        <a-mixin id="point" raycaster="showLine: false; objects: .lnk; line="color:rgb(255,255,255); opacity:0.33;"
-                 collision-filter="collisionForces: true"
-                 static-body="shape: sphere; sphereRadius: 0.001"
-                 super-hands="colliderEvent: raycaster-intersection;
-                              colliderEventProperty: els;
-                              colliderEndEvent:raycaster-intersection-cleared;
-                              colliderEndEventProperty: clearedEls;">
-		</a-mixin>
-	<a-mixin id="luz" light="type: directional; color: #BBB; intensity: 0.5"></a-mixin>
+		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.5; roughness:0.6;"></a-mixin>
+		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
+		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
 	</a-assets>
 		
 	<a-sky src="#vialactea"></a-sky>
 
-
-	 
-	<a-entity position="0 4 -16">
-		<a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
+	<a-entity position="0 0 0">
+		<a-sphere src="#sol" radius="2" mixin="esferas">
+			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
 		</a-sphere>
 
 		<a-entity visible="false">
 			<a-circle position="0 0 0.28" color="yellow" opacity="0.3" radius="2.6" rotation="-90 0 0" segments="200"></a-circle>
 				<a-circle color="white" opacity="0.3" radius="2.6" rotation="-90 0 0" segments="200"></a-circle>
-				<a-cylinder radius="0.01" height="0.5" position="2.6 0 0" color="yellow" rotation="0 0 0" animation="property: rotation; from:0.03 0 0; to:0.03 360 0; loop: true; dur: 11146; easing:linear">
+				<a-cylinder radius="0.01" height="0.5" position="2.6 0 0" color="yellow">
+					<a-animation mixin="anima1" dur="11146" from="0.03 0 0" to="0.03 360 0"></a-animation>
 				</a-cylinder>
 				<a-cylinder radius="0.01" height="0.5" position="2.6 0 0" color="yellow"></a-cylinder>
 		</a-entity>		
 				
 		<a-entity id="mercurio" rotation="7 48.33 0" scale="1 1 0.98">
 				<a-entity rotation="0 77.45 0">
-					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 155863; easing:linear">
 					<a-entity position="-0.28 0 0">
 						<a-entity rotation="0 80 0">
-							<a-sphere src="#mercurio1" radius="0.12" position="2.6 0 0" scale="1 1 1.022" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:0.03 0 0; to:0.03 360 0; loop: true; dur: 127244; easing:linear">
+							<a-sphere src="#mercurio1" radius="0.12" position="2.6 0 0" scale="1 1 1.022" mixin="esferas">
+								<a-animation mixin="anima1" dur="127244" from="0.03 0 0" to="0.03 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="MERCURY" mixin="texto" position="2.6 0.3 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="2.6" mixin="anel"></a-torus>
-					</a-entity>
+						<a-animation mixin="anima" dur="155863"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
 
 		<a-entity id="venus" rotation="3.4 76.68 0" >
 				<a-entity rotation="0 131.5 0">
-					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 249059; easing:linear">
 					<a-entity position="-0.01 0 0">
 						<a-entity rotation="0 -74 0">
-							<a-sphere src="#venus1" radius="0.19" position="3.5 0 0" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:177.3 0 0; to:177.3 -360 0; loop: true; dur: 259014; easing:linear">
+							<a-sphere src="#venus1" radius="0.19" position="3.5 0 0" mixin="esferas">
+								<a-animation mixin="anima1" dur="259014" from="177.3 0 0" to="177.3 -360 0"></a-animation>
 							</a-sphere>
 							<a-text value="VENUS" mixin="texto" position="3.5 0.4 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="3.5" mixin="anel"></a-torus>
-					</a-entity>
+						<a-animation mixin="anima" dur="249059"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
 
 		<a-entity id="terra" rotation="0 102.9 0">
 			<a-entity rotation="0 -11.26 0">
-				<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 317517; easing:linear">
 				<a-entity position="-0.034 0 0">
 					<a-entity rotation="0 2 0">
-						<a-sphere src="#terra1" radius="0.19" position="4.1 0 0" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:23.16 0 0; to:23.16 360 0; loop: true; dur: 16615; easing:linear">
+						<a-sphere src="#terra1" radius="0.19" position="4.1 0 0" mixin="esferas">
+							<a-animation mixin="anima1" dur="16615" from="23.16 0 0" to="23.16 360 0"></a-animation>
 							<a-entity id="lua" rotation="5.1 30 0" scale="1 1 0.998">
-								<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 86812; easing:linear">
 								<a-entity position="-0.01 0 0">
-									<a-sphere src="#lua1" radius="0.05" position="0.3 0 0" scale="1 1 1.002" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:6.68 0 0; to:6.68 360 0; loop: true; dur: 86844; easing:linear">
+									<a-sphere src="#lua1" radius="0.05" position="0.3 0 0" scale="1 1 1.002" mixin="esferas">
+										<a-animation mixin="anima1" dur="86844" from="6.68 0 0" to="6.68 360 0"></a-animation>
 									</a-sphere>
-								</a-entity>
+									<a-animation mixin="anima" dur="86812"></a-animation>
 								</a-entity>
 							</a-entity>
 						</a-sphere>
 						<a-text value="EARTH" mixin="texto" position="4.1 0.4 0"></a-text>
+						<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 					</a-entity>
 					<a-torus radius="4.1" mixin="anel"></a-torus>
-				</a-entity>
+					<a-animation mixin="anima" dur="317517"></a-animation>
 				</a-entity>
 			</a-entity>
 		</a-entity>
 
 		<a-entity id="marte" rotation="1.9 49.57 0" scale="1 1 0.98">
 				<a-entity rotation="0 336 0">
-					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 435492; easing:linear">
 					<a-entity position="-0.24 0 0">
 						<a-entity rotation="0 12 0">
-							<a-sphere src="#marte1" radius="0.14" position="5.1 0 0" scale="1 1 1.004" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:25.19 0 0; to:25.19 360 0; loop: true; dur: 16780; easing:linear">
+							<a-sphere src="#marte1" radius="0.14" position="5.1 0 0" scale="1 1 1.004" mixin="esferas">
+								<a-animation mixin="anima1" dur="16780" from="25.19 0 0" to="25.19 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="MARS" mixin="texto" position="5.1 0.3 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="5.1" mixin="anel"></a-torus>
-					</a-entity>
+						<a-animation mixin="anima" dur="435492"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
 
 		<a-entity id="jupiter" rotation="1.3 100.55 0" scale="1 1 0.999">
 				<a-entity rotation="0 14.7 0">
-					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 1093442; easing:linear">
 					<a-entity position="-0.23 0 0">
 						<a-entity rotation="0 131 0">
-							<a-sphere src="#jupiter1" radius="0.64" position="9.4 0 0" scale="1 1 1.001" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:3.13 0 0; to:3.13 360 0; loop: true; dur: 10639; easing:linear">
+							<a-sphere src="#jupiter1" radius="0.64" position="9.4 0 0" scale="1 1 1.001" mixin="esferas">
+								<a-animation mixin="anima1" dur="10639" from="3.13 0 0" to="3.13 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="JUPITER" mixin="texto" position="9.4 0.9 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="9.4" mixin="anel"></a-torus>
-					</a-entity>
+						<a-animation mixin="anima" dur="1093442"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
 
 		<a-entity id="saturno" rotation="2.5 113.71 0" scale="1 1 0.998">
 				<a-entity rotation="0 92.4 0">
-					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 1722445; easing:linear">
 					<a-entity position="-0.37 0 0">
 						<a-entity rotation="0 77 0">
-							<a-sphere src="#saturno1" radius="0.58" position="12.8 0 0" scale="1 1 1.002" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:26.73 0 0; to:26.73 360 0; loop: true; dur: 11146; easing:linear">
+							<a-sphere src="#saturno1" radius="0.58" position="12.8 0 0" scale="1 1 1.002" mixin="esferas">
+								<a-animation mixin="anima1" dur="11146" from="26.73 0 0" to="26.73 360 0"></a-animation>
 							</a-sphere>
-							<a-ring src="#saturno_a" radius-inner="0.8" radius-outer="1.2" position="12.8 0 0" side="double" transparent="true" segments-theta="150" rotation="0 0 0" animation="property: rotation; from:116.73 0 0; to:116.73 360 0; loop: true; dur: 11146; easing:linear">
+							<a-ring src="#saturno_a" radius-inner="0.8" radius-outer="1.2" position="12.8 0 0" side="double" transparent="true" segments-theta="150">
+								<a-animation mixin="anima1" dur="11146" from="116.73 0 0 " to="116.73 360 0"></a-animation>
 							</a-ring>
 							<a-text value="SATURN" mixin="texto" position="12.8 0.8 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="12.8" mixin="anel"></a-torus>
-					</a-entity>
+						<a-animation mixin="anima" dur="1722445"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
 
 		<a-entity id="urano" rotation="0.8 74.23 0" scale="1 1 0.999">
 				<a-entity rotation="0 170.9 0">
-					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 2905925; easing:linear">
 					<a-entity position="-0.42 0 0"> 
 						<a-entity rotation="0 20 0">
-							<a-sphere src="#urano1" radius="0.38" position="18.1 0 0" scale="1 1 1.001" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:97.77 0 0; to:97.77 -360 0; loop: true; dur: 14098; easing:linear">
+							<a-sphere src="#urano1" radius="0.38" position="18.1 0 0" scale="1 1 1.001" mixin="esferas">
+								<a-animation mixin="anima1" dur="14098" from="97.77 0 0" to="97.77 -360 0"></a-animation>
 							</a-sphere>
-							<a-ring color="teal" radius-inner=".7" radius-outer=".73" position="18.1 0 0" side="double" segments-theta="120" rotation="0 0 0" animation="property: rotation; from:97.77 0 0; to:97.77 -360 0; loop: true; dur: 14098; easing:linear">
+							<a-ring color="teal" radius-inner=".7" radius-outer=".73" position="18.1 0 0" side="double" segments-theta="120">
+								<a-animation mixin="anima1" dur="14098" from="97.77 0 0 " to="97.77 -360 0"></a-animation>
 							</a-ring>
 							<a-text value="URANUS" mixin="texto" position="18.1 0.6 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="18.1" mixin="anel"></a-torus>
-					</a-entity>
+						<a-animation mixin="anima" dur="2905925"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
 
 		<a-entity id="netuno" rotation="1.8 131.72 0">
 				<a-entity rotation="0 44.9 0">
-					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 4063052; easing:linear">
 					<a-entity position="-0.13 0 0">
 						<a-entity rotation="0 90 0">
-							<a-sphere src="#netuno1" radius="0.38" position="22.7 0 0" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:28.32 0 0; to:28.32 360 0; loop: true; dur: 13566; easing:linear">
+							<a-sphere src="#netuno1" radius="0.38" position="22.7 0 0" mixin="esferas">
+								<a-animation mixin="anima1" dur="13566" from="28.32 0 0" to="28.32 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="NEPTUNE" mixin="texto" position="22.7 0.6 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="22.7" mixin="anel"></a-torus>
-					</a-entity>
+						<a-animation mixin="anima" dur="4063052"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
@@ -237,6 +204,7 @@
 								<a-animation mixin="anima1" dur="42000" from="313 0 0" to="313 -360 0"></a-animation>
 							</a-sphere>
 							<a-text value="PLUTO" mixin="texto" position="26 0.3 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="26" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="5000000"></a-animation>
@@ -252,6 +220,7 @@
 								<a-animation mixin="anima1" dur="10175" from="4 0 0" to="4 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="CERES" mixin="texto" position="6.9 0.25 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="6.9" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="681014"></a-animation>
@@ -267,6 +236,7 @@
 								<a-animation mixin="anima1" dur="16087" from="0 0 0" to="0 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="MAKEMAKE" mixin="texto" position="28 0.25 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="28" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="5543679"></a-animation>
@@ -282,6 +252,7 @@
 								<a-animation mixin="anima1" dur="6783" from="0 0 0" to="0 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="HAUMEA" mixin="texto" position="27.1 0.25 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="27.1" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="5358838"></a-animation>
@@ -297,16 +268,15 @@
 								<a-animation mixin="anima1" dur="17260" from="0 0 0" to="0 360 0"></a-animation>
 							</a-sphere>
 							<a-text value="ERIS" mixin="texto" position="34 0.25 0"></a-text>
+							<a-light type="spot" position="0 0 0" color="#bbb" intensity="0.3" angle="30" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="34" mixin="anel"></a-torus>
 						<a-animation mixin="anima" dur="7491621"></a-animation>
 					</a-entity>
 				</a-entity>
 		</a-entity>
-		
 	</a-entity>
-		
-	 <a-entity mixin="piso" position="0 -4 0" ></a-entity>
+	<a-light type="ambient" color="#bbb" intensity="2"></a-light>
   </a-scene>
  </body>
 </html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
+	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+</head>
+  <body>
+<div style='color:#f0f8ff; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2020 Paulo Henrique Siqueira</div>
+ <a-scene cursor="rayOrigin:mouse">
+
+    <a-entity camera look-controls orbit-controls="target: 0 0 0; maxPolarAngle: 360; initialPosition: 0 2 8"></a-entity>
+
+	<a-assets>
+		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
+		<img id="sol" src="../imagens/2k_sun.jpg">
+		<img id="mercurio1" src="../imagens/2k_mercury.jpg">
+		<img id="venus1" src="../imagens/2k_venus_surface.jpg">
+		<img id="terra1" src="../imagens/2k_earth_daymap.jpg">
+		<img id="marte1" src="../imagens/2k_mars.jpg">
+		<img id="jupiter1" src="../imagens/2k_jupiter.jpg">
+		<img id="saturno1" src="../imagens/2k_saturn.jpg">
+		<img id="saturno_a" src="../imagens/2k_saturn_ring_alpha.png">
+		<img id="urano1" src="../imagens/2k_uranus.jpg">
+		<img id="netuno1" src="../imagens/2k_neptune.jpg">
+		<img id="plutao1" src="../imagens/2k_pluto.jpg">
+		<img id="lua1" src="../imagens/2k_moon.jpg">
+		<img id="ceres1" src="../imagens/2k_ceres.jpg">
+		<img id="makemake1" src="../imagens/2k_makemake.jpg">
+		<img id="haumea1" src="../imagens/2k_haumea.jpg">
+		<img id="eris1" src="../imagens/2k_eris.jpg">
+		<a-mixin id="texto" text="width: 10; side:double; color: white"></a-mixin>
+		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
+			material="color: #80c1ff; opacity:0.85; side:double;" event-set__enter="_event: mouseenter; opacity: 1"
+           event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
+		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double;"></a-mixin>
+	</a-assets>
+		
+	<a-sky src="#vialactea"></a-sky>
+
+	<a-entity position="0 0 0">
+		<a-sphere src="#sol" radius="2" mixin="esferas">
+			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
+		</a-sphere>
+
+		<a-entity visible="false">
+			<a-circle position="0 0 0.28" color="yellow" opacity="0.3" radius="2.6" rotation="-90 0 0" segments="200"></a-circle>
+				<a-circle color="white" opacity="0.3" radius="2.6" rotation="-90 0 0" segments="200"></a-circle>
+				<a-cylinder radius="0.01" height="0.5" position="2.6 0 0" color="yellow">
+					<a-animation mixin="anima1" dur="11146" from="0.03 0 0" to="0.03 360 0"></a-animation>
+				</a-cylinder>
+				<a-cylinder radius="0.01" height="0.5" position="2.6 0 0" color="yellow"></a-cylinder>
+		</a-entity>		
+				
+		<a-entity id="mercurio" rotation="7 48.33 0" scale="1 1 0.98">
+				<a-entity rotation="0 77.45 0">
+					<a-entity position="-0.28 0 0">
+						<a-entity rotation="0 80 0">
+							<a-sphere src="#mercurio1" radius="0.12" position="2.6 0 0" scale="1 1 1.022" mixin="esferas">
+								<a-animation mixin="anima1" dur="127244" from="0.03 0 0" to="0.03 360 0"></a-animation>
+							</a-sphere>
+							<a-text value="MERCURY" mixin="texto" position="2.6 0.3 0"></a-text>
+						</a-entity>
+						<a-torus radius="2.6" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="155863"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+
+		<a-entity id="venus" rotation="3.4 76.68 0" >
+				<a-entity rotation="0 131.5 0">
+					<a-entity position="-0.01 0 0">
+						<a-entity rotation="0 -74 0">
+							<a-sphere src="#venus1" radius="0.19" position="3.5 0 0" mixin="esferas">
+								<a-animation mixin="anima1" dur="259014" from="177.3 0 0" to="177.3 -360 0"></a-animation>
+							</a-sphere>
+							<a-text value="VENUS" mixin="texto" position="3.5 0.4 0"></a-text>
+						</a-entity>
+						<a-torus radius="3.5" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="249059"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+
+		<a-entity id="terra" rotation="0 102.9 0">
+			<a-entity rotation="0 -11.26 0">
+				<a-entity position="-0.034 0 0">
+					<a-entity rotation="0 2 0">
+						<a-sphere src="#terra1" radius="0.19" position="4.1 0 0" mixin="esferas">
+							<a-animation mixin="anima1" dur="16615" from="23.16 0 0" to="23.16 360 0"></a-animation>
+							<a-entity id="lua" rotation="5.1 30 0" scale="1 1 0.998">
+								<a-entity position="-0.01 0 0">
+									<a-sphere src="#lua1" radius="0.05" position="0.3 0 0" scale="1 1 1.002" mixin="esferas">
+										<a-animation mixin="anima1" dur="86844" from="6.68 0 0" to="6.68 360 0"></a-animation>
+									</a-sphere>
+									<a-animation mixin="anima" dur="86812"></a-animation>
+								</a-entity>
+							</a-entity>
+						</a-sphere>
+						<a-text value="EARTH" mixin="texto" position="4.1 0.4 0"></a-text>
+					</a-entity>
+					<a-torus radius="4.1" mixin="anel"></a-torus>
+					<a-animation mixin="anima" dur="317517"></a-animation>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+
+		<a-entity id="marte" rotation="1.9 49.57 0" scale="1 1 0.98">
+				<a-entity rotation="0 336 0">
+					<a-entity position="-0.24 0 0">
+						<a-entity rotation="0 12 0">
+							<a-sphere src="#marte1" radius="0.14" position="5.1 0 0" scale="1 1 1.004" mixin="esferas">
+								<a-animation mixin="anima1" dur="16780" from="25.19 0 0" to="25.19 360 0"></a-animation>
+							</a-sphere>
+							<a-text value="MARS" mixin="texto" position="5.1 0.3 0"></a-text>
+						</a-entity>
+						<a-torus radius="5.1" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="435492"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+
+		<a-entity id="jupiter" rotation="1.3 100.55 0" scale="1 1 0.999">
+				<a-entity rotation="0 14.7 0">
+					<a-entity position="-0.23 0 0">
+						<a-entity rotation="0 131 0">
+							<a-sphere src="#jupiter1" radius="0.64" position="9.4 0 0" scale="1 1 1.001" mixin="esferas">
+								<a-animation mixin="anima1" dur="10639" from="3.13 0 0" to="3.13 360 0"></a-animation>
+							</a-sphere>
+							<a-text value="JUPITER" mixin="texto" position="9.4 0.9 0"></a-text>
+						</a-entity>
+						<a-torus radius="9.4" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="1093442"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+
+		<a-entity id="saturno" rotation="2.5 113.71 0" scale="1 1 0.998">
+				<a-entity rotation="0 92.4 0">
+					<a-entity position="-0.37 0 0">
+						<a-entity rotation="0 77 0">
+							<a-sphere src="#saturno1" radius="0.58" position="12.8 0 0" scale="1 1 1.002" mixin="esferas">
+								<a-animation mixin="anima1" dur="11146" from="26.73 0 0" to="26.73 360 0"></a-animation>
+							</a-sphere>
+							<a-ring src="#saturno_a" radius-inner="0.8" radius-outer="1.2" position="12.8 0 0" side="double" transparent="true" segments-theta="150">
+								<a-animation mixin="anima1" dur="11146" from="116.73 0 0 " to="116.73 360 0"></a-animation>
+							</a-ring>
+							<a-text value="SATURN" mixin="texto" position="12.8 0.8 0"></a-text>
+						</a-entity>
+						<a-torus radius="12.8" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="1722445"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+
+		<a-entity id="urano" rotation="0.8 74.23 0" scale="1 1 0.999">
+				<a-entity rotation="0 170.9 0">
+					<a-entity position="-0.42 0 0"> 
+						<a-entity rotation="0 20 0">
+							<a-sphere src="#urano1" radius="0.38" position="18.1 0 0" scale="1 1 1.001" mixin="esferas">
+								<a-animation mixin="anima1" dur="14098" from="97.77 0 0" to="97.77 -360 0"></a-animation>
+							</a-sphere>
+							<a-ring color="teal" radius-inner=".7" radius-outer=".73" position="18.1 0 0" side="double" segments-theta="120">
+								<a-animation mixin="anima1" dur="14098" from="97.77 0 0 " to="97.77 -360 0"></a-animation>
+							</a-ring>
+							<a-text value="URANUS" mixin="texto" position="18.1 0.6 0"></a-text>
+						</a-entity>
+						<a-torus radius="18.1" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="2905925"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+
+		<a-entity id="netuno" rotation="1.8 131.72 0">
+				<a-entity rotation="0 44.9 0">
+					<a-entity position="-0.13 0 0">
+						<a-entity rotation="0 90 0">
+							<a-sphere src="#netuno1" radius="0.38" position="22.7 0 0" mixin="esferas">
+								<a-animation mixin="anima1" dur="13566" from="28.32 0 0" to="28.32 360 0"></a-animation>
+							</a-sphere>
+							<a-text value="NEPTUNE" mixin="texto" position="22.7 0.6 0"></a-text>
+						</a-entity>
+						<a-torus radius="22.7" mixin="anel"></a-torus>
+						<a-animation mixin="anima" dur="4063052"></a-animation>
+					</a-entity>
+				</a-entity>
+		</a-entity>
+		
+	</a-entity>
+		
+  </a-scene>
+ </body>
+</html>
