@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
 	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
 </head>
@@ -20,8 +20,6 @@
 			material="color: cyan; opacity:0.7; side:double; metalness:0.5; roughness:0.3;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
 		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.5; roughness:0.6;"></a-mixin>
-		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
-		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
 		<a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6; metalness:0.5; roughness:0.3;"></a-mixin>
 	</a-assets>
 		
@@ -29,11 +27,9 @@
 	<a-text mixin="texto1" width="5" position="0 -1 3.5" rotation="-45 0 0" 
 			  text="value:THE SUN  |  Distance from Earth: 149.60 million km or 1 astronomical unit  |  Radius: 695,508 kilometers | Star Type: Yellow dwarf  |  Inclination of the axis: 7.25 degrees ;"></a-text>
 	<a-entity position="0 0 0">
-		<a-sphere src="#sol" radius="2" mixin="esferas">
-			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
+		<a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
-		<a-cylinder color="green" position="0 0 0" height="5" mixin="eixos">
-			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
+		<a-cylinder color="green" position="0 0 0" height="5" mixin="eixos" rotation="0 0 0" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-cylinder>
 		<a-text value="hP" mixin="texto" position="0.1 2.3 0"></a-text>	
 	</a-entity>
