@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
 	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
 </head>
@@ -22,8 +22,6 @@
 			material="color: cyan; opacity:0.7; side:double; metalness:0.5; roughness:0.3;" event-set__enter="_event: mouseenter; opacity: 1"
            event-set__leave="_event: mouseleave; opacity: 0.7"></a-mixin>
 		<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.5; roughness:0.6;"></a-mixin>
-		<a-mixin id="anima" attribute="rotation" easing="linear" to="0 360 0" repeat="indefinite"></a-mixin>
-		<a-mixin id="anima1" attribute="rotation" easing="linear" repeat="indefinite"></a-mixin>
 		<a-mixin id="eixos" geometry="radius:0.02;" material="opacity:0.6; metalness:0.5; roughness:0.3;"></a-mixin>
 	</a-assets>
 		
@@ -31,8 +29,7 @@
 	<a-text mixin="texto1" width="7" position="0 -1 28.5" rotation="-45 0 0" 
 			  text="value:MAKEMAKE  |  Day: 2.5 hours  |  Year: 305.34 Earth years  |  Radius: 715 km  |  Planet Type: Dwarf  |  Moons: 0  |  Aphelion: 7,904.8 x 10^6 km  | Perihelion: 5,773 x 10^6 km  |  Orbit's inclination: 28.9 degrees ;"></a-text>
 	<a-entity position="0 0 0">
-		<a-sphere src="#sol" radius="2" mixin="esferas">
-			<a-animation mixin="anima1" dur="98296" from="7.25 0 0" to="7.25 360 0"></a-animation>
+		<a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="26" position="13.5 0 0" mixin="eixos"></a-cylinder>
 		<a-text value="d" position="26 0.2 0" mixin="texto" ></a-text>
@@ -43,16 +40,16 @@
 					<a-cylinder position="-2.5 0 0" color="red" rotation="90 0 90" height="57" mixin="eixos"></a-cylinder>
 					<a-text value="ph" mixin="texto" position="25.7 0.3 0"></a-text>
 					<a-text value="ap" mixin="texto" position="-30.9 0.3 0"></a-text>
+					<a-entity animation="property: rotation; to:0 360 0; loop: true; dur: 5543679; easing:linear">
 					<a-entity position="-2.29 0 0">
 						<a-entity rotation="0 200 0">
-							<a-sphere src="#makemake1" radius="0.064" position="28 0 0" scale="1 1 1.013" mixin="esferas">
-								<a-animation mixin="anima1" dur="16087" from="0 0 0" to="0 360 0"></a-animation>
+							<a-sphere src="#makemake1" radius="0.064" position="28 0 0" scale="1 1 1.013" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:0 0 0; to:0 360 0; loop: true; dur: 16087; easing:linear">
 							</a-sphere>
 							<a-text value="MAKEMAKE" mixin="texto" position="28 0.25 0"></a-text>
 							<a-light type="spot" position="0 0 0" color="white" intensity="0.6" angle="45" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="28" mixin="anel"></a-torus>
-						<a-animation mixin="anima" dur="5543679"></a-animation>
+					</a-entity>
 					</a-entity>
 				</a-entity>
 		</a-entity>
