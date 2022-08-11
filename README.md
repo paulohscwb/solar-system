@@ -9,7 +9,7 @@
 <br>The objective of this project is to show the planets in RA and RV with A-frame technology.
 <br>The textures of the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
 <br><br>To view the Solar System in AR, simply visit 
-<p align="center"><a href="https://paulohscwb.github.io/solar-system/solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
+<p align="center"><a href="solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br><br><center><img src="vr/example.png" width="80%"></center>
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
