@@ -115,7 +115,7 @@
 <p class="topop"><a href="#p4" class="topo">back to top</a></p>
 </details>
 
-<br><br>The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
+The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
 <br>The orbit scripts developed by <b>Kevin Ngo</b> were used on the VR pages: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
 <br>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>. 
 <br>The objective of this project is to show the planets in RA and RV with A-frame technology.
