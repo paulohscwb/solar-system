@@ -115,16 +115,17 @@
 <p class="topop"><a href="#p4" class="topo">back to top</a></p>
 </details>
 
-The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
-<br>The orbit scripts developed by <b>Kevin Ngo</b> were used on the VR pages: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
-<br>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>. 
-<br>The objective of this project is to show the planets in RA and RV with A-frame technology.
-<br>The textures of the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
-<br><br>To view the Solar System in AR, simply visit 
+<p>The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.</p>
+<p>The orbit scripts developed by <b>Kevin Ngo</b> were used on the VR pages: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.</p>
+<p>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>.</p>
+<p>The objective of this project is to show the planets in RA and RV with A-frame technology.</p>
+<p>The textures of the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.</p>
+<br>
+<p>To view the Solar System in AR, simply visit</p>
 <p align="center"><a href="solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
-with any browser with a webcam device (smartphone, tablet or notebook). 
+<p>with any browser with a webcam device (smartphone, tablet or notebook).</p>
 <center><img style="border-radius:7px; padding:15px 0 15px 0;" src="vr/example.png" width="80%"></center>
-<br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
+<p>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.</p>
 <center><img style="border-radius:7px; padding:15px 0 15px 0;" src="vr/example0.jpg" width="80%"></center>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Solar System</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/solar-system/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
