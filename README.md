@@ -117,7 +117,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <p class="topop"><a href="#p3" class="topo">back to top</a></p>
 </details>
 
-<details id="p4"s style="border-bottom: 1px solid #a2dec0;">
+<details id="p4" style="border-bottom: 1px solid #a2dec0;">
   <summary>The Sun</summary>
  <br><img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>The Sun—the heart of our solar system—is a yellow dwarf star, a hot ball of glowing gases. Its gravity holds the solar system together, keeping everything from the biggest planets to the smallest particles of debris in its orbit. Electric currents in the Sun generate a magnetic field that is carried out through the solar system by the solar wind—a stream of electrically charged gas blowing outward from the Sun in all directions. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and aurorae. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.
