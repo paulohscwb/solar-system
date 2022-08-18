@@ -4,17 +4,7 @@
  <br><b>contato:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/solar-system/">english version</a>
  <br><br>Os planetas do Sistema Solar podem ser visualizados em AR com os marcadores indicados, e através dos links criados nos marcadores, os planetas podem ser vistos em RV. Para tornar o ambiente programado em RV e RA mais próximo da realidade, foram incluídos os períodos orbital e de rotação de cada planeta, as inclinações das órbitas e as distâncias afélio e periélio em relação ao Sol.
-<br><br>  O ambiente AR foi criado com os scripts desenvolvidos por <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
-<br>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de RV: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
-<br>Todas as informações sobre o sistema solar foram retiradas do site da NASA: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>. 
-<br>O objetivo deste projeto é mostrar os planetas em RA e RV com a tecnologia A-frame.
-<br>As texturas dos planetas foram utilizadas do site Solar System Scope: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
-<br><br>Para visualizar o Sistema Solar em RA, acesse o site: 
-<p align="center"><a href="../solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
-com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook). 
-<br><br><center><img style="border-radius:7px;" src="../vr/example.png" width="80%"></center>
-<br>O acesso aos sites de RV é feito clicando-se no círculo azul que aparece em cima de cada marcador.
-<br><br><center><img style="border-radius:7px;" src="../vr/example0.jpg" width="80%"></center>
+
 <details id="p1">
   <summary>Sistema Solar</summary>
 <h4>Sistema Solar com os planetas anões</h4>
@@ -124,6 +114,18 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><a href="../vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/RVaframe.png" width="200px"></a>
 <p class="topop"><a href="#p4" class="topo">voltar ao topo</a></p>
 </details>
+
+<br><br>  O ambiente AR foi criado com os scripts desenvolvidos por <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
+<br>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de RV: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
+<br>Todas as informações sobre o sistema solar foram retiradas do site da NASA: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>. 
+<br>O objetivo deste projeto é mostrar os planetas em RA e RV com a tecnologia A-frame.
+<br>As texturas dos planetas foram utilizadas do site Solar System Scope: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
+<br><br>Para visualizar o Sistema Solar em RA, acesse o site: 
+<p align="center"><a href="../solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
+com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook). 
+<br><br><center><img style="border-radius:7px;" src="../vr/example.png" width="80%"></center>
+<br>O acesso aos sites de RV é feito clicando-se no círculo azul que aparece em cima de cada marcador.
+<br><br><center><img style="border-radius:7px;" src="../vr/example0.jpg" width="80%"></center>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Solar System</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/solar-system/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
