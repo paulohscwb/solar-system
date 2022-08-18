@@ -16,7 +16,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <br>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.
 <br><br><center><img style="border-radius:7px;" src="vr/example0.jpg" width="80%"></center>
 
-<details>
+<details id="p1">
   <summary>Solar System</summary>
 <h4>Solar System with dwarf planets</h4>
 <img src="https://paulohscwb.github.io/polyhedra/ar/hiro.png" width="180px">
@@ -28,10 +28,10 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>The order and arrangement of the planets and other bodies in our solar system is due to the way the solar system formed. Nearest the Sun, only rocky material could withstand the heat when the solar system was young. For this reason, the first four planets—Mercury, Venus, Earth and Mars—are terrestrial planets. They're small with solid, rocky surfaces. Meanwhile, materials we are used to seeing as ice, liquid or gas settled in the outer regions of the young solar system. Gravity pulled these materials together, and that is where we find gas giants Jupiter and Saturn and ice giants Uranus and Neptune. <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/in-depth/" target="_blank">More...</a>
 <br>The Solar System without dwarf planets Pluto, Ceres, Makemake, Haumea and Eris can be seen in the RV link.
  <br><a href="vr/solar1.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a>
-<p></p>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
 </details>
 
-<details>
+<details id="p2">
   <summary>Planets</summary>
 <h4>1. Mercury</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/6.png" width="180px">
@@ -80,10 +80,10 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>Dark, cold and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. NASA's Voyager 2 is the only spacecraft to have visited Neptune up close. It flew past in 1989 on its way out of the solar system.
 <br><b>Day:</b> 16 hours | <b>Year:</b> 165 Earth years | <b>Radius:</b> 24,622 kilometers | <b>Planet Type:</b> Ice giant | <b>Moons:</b> 13 | <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank">More...</a>
  <br><a href="vr/neptune.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a>
-<p></p>
+<p class="topop"><a href="#p2" class="topo">back to top</a></p>
 </details> 
  
-<details>
+<details id="p3">
   <summary>Dwarf Planets</summary>
 <h4>1. Pluto</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/12.png" width="180px">
@@ -114,16 +114,16 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br>Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto, but is three times farther from the Sun. Eris first appeared to be larger than Pluto. This triggered a debate in the scientific community that led to the International Astronomical Union's decision in 2006 to clarify the definition of a planet. Pluto, Eris and other similar objects are now classified as dwarf planets. Originally designated 2003 UB313 (and nicknamed for the television warrior Xena by its discovery team), Eris is named for the ancient Greek goddess of discord and strife. The name fits since Eris remains at the center of a scientific debate about the definition of a planet. Eris was discovered on Oct. 21, 2003 by M.E. Brown, C.A. Trujillo, and D. Rabinowitz at the Palomar Observatory.
 <br><b>Day:</b> 25.9 hours | <b>Year:</b> 557 Earth years | <b>Radius:</b> 1,163 kilometers | <b>Planet Type:</b> Dwarf | <b>Moons:</b> 1 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/" target="_blank">More...</a>
  <br><a href="vr/eris.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a>
-<p></p>
+<p class="topop"><a href="#p3" class="topo">back to top</a></p>
 </details>
 
-<details>
+<details id="p4">
   <summary>The Sun</summary>
  <br><img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>The Sun—the heart of our solar system—is a yellow dwarf star, a hot ball of glowing gases. Its gravity holds the solar system together, keeping everything from the biggest planets to the smallest particles of debris in its orbit. Electric currents in the Sun generate a magnetic field that is carried out through the solar system by the solar wind—a stream of electrically charged gas blowing outward from the Sun in all directions. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and aurorae. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.
  <br><b>Distance from Earth:</b> 149.60 million kilometers or 1 astronomical unit | <b>Radius:</b> 695,508 kilometers | <b>Star Type:</b> Yellow dwarf | <a href="https://solarsystem.nasa.gov/solar-system/sun/in-depth/" target="_blank">More...</a>
  <br><a href="vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a>
-<p></p>
+<p class="topop"><a href="#p4" class="topo">back to top</a></p>
 </details>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Solar System</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/solar-system/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
