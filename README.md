@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../imagens/style.css">
+<link rel="stylesheet" href="imagens/style.css">
 <h2>Visualization of Solar System with Augmented Reality and Virtual Reality with A-frame</h2>
 <b>author:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
@@ -30,6 +30,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><a href="vr/solar1.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a>
 <p></p>
 </details>
+
 <details>
   <summary>Planets</summary>
 <h4>1. Mercury</h4>
@@ -121,7 +122,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>The Sun—the heart of our solar system—is a yellow dwarf star, a hot ball of glowing gases. Its gravity holds the solar system together, keeping everything from the biggest planets to the smallest particles of debris in its orbit. Electric currents in the Sun generate a magnetic field that is carried out through the solar system by the solar wind—a stream of electrically charged gas blowing outward from the Sun in all directions. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and aurorae. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.
  <br><b>Distance from Earth:</b> 149.60 million kilometers or 1 astronomical unit | <b>Radius:</b> 695,508 kilometers | <b>Star Type:</b> Yellow dwarf | <a href="https://solarsystem.nasa.gov/solar-system/sun/in-depth/" target="_blank">More...</a>
- <br><a href="vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a></td></tr></table>
+ <br><a href="vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a>
 <p></p>
 </details>
 
