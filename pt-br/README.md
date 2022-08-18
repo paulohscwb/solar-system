@@ -115,12 +115,12 @@
 <p class="topop"><a href="#p4" class="topo">voltar ao topo</a></p>
 </details>
 
-<p>O ambiente AR foi criado com os scripts desenvolvidos por <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.</p>
-<p>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de RV: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.</p>
-<p>Todas as informações sobre o sistema solar foram retiradas do site da NASA: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>.</p>
-<p>O objetivo deste projeto é mostrar os planetas em RA e RV com a tecnologia A-frame.</p>
-<p>As texturas dos planetas foram utilizadas do site Solar System Scope: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.</p>
-<br>
+<br>O ambiente AR foi criado com os scripts desenvolvidos por <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
+<br>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de RV: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
+<br>Todas as informações sobre o sistema solar foram retiradas do site da NASA: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>.
+<br>O objetivo deste projeto é mostrar os planetas em RA e RV com a tecnologia A-frame.
+<br>As texturas dos planetas foram utilizadas do site Solar System Scope: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>
+
 <p>Para visualizar o Sistema Solar em RA, acesse a página:</p>
 <p align="center"><a href="../solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
 <p>com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).</p>
