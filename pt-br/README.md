@@ -14,7 +14,7 @@
 com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook). 
 <br><br><center><img style="border-radius:7px;" src="../vr/example.png" width="80%"></center>
 <br>O acesso aos sites de RV é feito clicando-se no círculo azul que aparece em cima de cada marcador.
-<br><br><center><img style="border-radius:7px;" src="../vr/example0.jpg" width="60%"></center>
+<br><br><center><img style="border-radius:7px;" src="../vr/example0.jpg" width="80%"></center>
 <details id="p1">
   <summary>Sistema Solar</summary>
 <h4>Sistema Solar com os planetas anões</h4>
