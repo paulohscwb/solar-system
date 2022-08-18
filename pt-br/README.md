@@ -15,7 +15,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <br><br><center><img style="border-radius:7px;" src="../vr/example.png" width="80%"></center>
 <br>O acesso aos sites de RV é feito clicando-se no círculo azul que aparece em cima de cada marcador.
 <br><br><center><img style="border-radius:7px;" src="../vr/example0.jpg" width="60%"></center>
-<details>
+<details id="p1">
   <summary>Sistema Solar</summary>
 <h4>Sistema Solar com os planetas anões</h4>
 <img src="https://paulohscwb.github.io/polyhedra/ar/hiro.png" width="180px">
@@ -27,10 +27,10 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br>A ordem e disposição dos planetas e outros corpos em nosso sistema solar são devido à própria formação do sistema solar. Mais próximo do Sol, apenas o material rochoso poderia suportar o calor quando o sistema solar era jovem. Por essa razão, os primeiros quatro planetas - Mercúrio, Vênus, Terra e Marte - são planetas terrestres. Eles são pequenos com superfícies sólidas e rochosas. Enquanto isso, materiais que estamos acostumados a ver como gelo, líquido ou gás se instalaram nas regiões mais externas do jovem sistema solar. A gravidade juntou esses materiais, onde encontramos os gigantes gasosos Júpiter e Saturno e os gigantes do gelo Urano e Netuno. <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/in-depth/" target="_blank">Mais sobre...</a>
 <br>O sistema solar sem planetas anões Plutão, Ceres, Makemake, Haumea e Eris pode ser visto no seguinte link de RV.
  <br><a href="../vr/solar1.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/RVaframe.png" width="200px"></a>
-<p></p>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details id="p2">
   <summary>Planetas</summary>
 <h4>1. Mercúrio</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/8.png" width="180px">
@@ -79,10 +79,10 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br>Escuro, frio e atingido por ventos supersônicos, o gigante do gelo Netuno é o oitavo e mais distante planeta do nosso sistema solar. Mais de 30 vezes mais distante do Sol do que a Terra, Netuno é o único planeta em nosso sistema solar que não é visível a olho nu e o primeiro previsto pela matemática antes de sua descoberta. Em 2011, Netuno completou sua primeira órbita completa de 165 anos desde sua descoberta em 1846. A Voyager 2 da NASA é a única espaçonave que visitou Netuno de perto, passou em 1989 em seu caminho para fora do sistema solar.
 <br><b>Dia:</b> 16 horas | <b>Ano:</b> 165 anos terrestres | <b>Raio:</b> 24,622 km | <b>Tipo:</b> Gigante de gelo | <b>Luas:</b> 13 | <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank">Mais sobre...</a>
  <br><a href="../vr/neptune.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/RVaframe.png" width="200px"></a>
-<p></p>
+<p class="topop"><a href="#p2" class="topo">voltar ao topo</a></p>
 </details>
  
-<details>
+<details id="p3">
   <summary>Planetas anões</summary>
 <h4>1. Plutão</h4>
  <img src="https://paulohscwb.github.io/polyhedra/ar/12.png" width="180px">
@@ -113,16 +113,16 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br>Eris é um dos maiores planetas anões conhecidos no nosso sistema solar. É aproximadamente do mesmo tamanho que Plutão, mas está três vezes mais distante do Sol. Eris primeiro pareceu ser maior que Plutão. Isso desencadeou um debate na comunidade científica que levou à decisão da União Astronômica Internacional em 2006 para esclarecer a definição de um planeta. Plutão, Eris e outros objetos similares são agora classificados como planetas anões. Originalmente designado 2003 UB313 (e apelidado de Xena pela sua equipe de descoberta), o nome Eris é uma homenagem a antiga deusa grega da discórdia e conflitos. O nome se encaixa desde que Eris permanece no centro de um debate científico sobre a definição de um planeta. Eris foi descoberto em 21 de outubro de 2003 por M. E. Brown, C. A. Trujillo e D. Rabinowitz no Observatório de Palomar.
 <br><b>Dia:</b> 25,9 horas | <b>Ano:</b> 557 anos terrestres | <b>Raio:</b> 1.163 km | <b>Tipo:</b> Anão | <b>Luas:</b> 1 | <a href="https://solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/" target="_blank">Mais sobre...</a>
  <br><a href="../vr/eris.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/RVaframe.png" width="200px"></a>
-<p></p>
+<p class="topop"><a href="#p3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details>
+<details id="p4">
   <summary>O Sol</summary>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>O Sol - coração do nosso sistema solar - é uma estrela anã amarela, uma bola quente de gases incandescentes. Sua gravidade mantém o sistema solar unido, mantendo tudo, desde os maiores planetas até as menores partículas de detritos em sua órbita. Correntes elétricas no Sol geram um campo magnético que é conduzido através do sistema solar pelo vento solar - um fluxo de gás eletricamente carregado saindo do Sol em todas as direções. A conexão e as interações entre o Sol e a Terra impulsionam as estações do ano, as correntes oceânicas, o clima, os cinturões de radiação e as auroras. Embora seja especial para nós, existem bilhões de estrelas como o nosso Sol espalhadas pela Via Láctea.
  <br><b>Distância da Terra:</b> 149,6 milhões de km ou 1 unidade astronômica <b>Raio:</b> 695.508 km | <b>Tipo de estrela:</b> Anã amarela | <a href="https://solarsystem.nasa.gov/solar-system/sun/in-depth/" target="_blank">Mais sobre...</a>
  <br><a href="../vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/RVaframe.png" width="200px"></a>
-<p></p>
+<p class="topop"><a href="#p4" class="topo">voltar ao topo</a></p>
 </details>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Solar System</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/solar-system/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
