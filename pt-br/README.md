@@ -116,7 +116,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <p class="topop"><a href="#p3" class="topo">voltar ao topo</a></p>
 </details>
 
-<details id="p4">
+<details id="p4"s style="border-bottom: 1px solid #a2dec0;">
   <summary>O Sol</summary>
  <img src="https://paulohscwb.github.io/polyhedra/ar/7.png" width="180px">
  <br><br>O Sol - coração do nosso sistema solar - é uma estrela anã amarela, uma bola quente de gases incandescentes. Sua gravidade mantém o sistema solar unido, mantendo tudo, desde os maiores planetas até as menores partículas de detritos em sua órbita. Correntes elétricas no Sol geram um campo magnético que é conduzido através do sistema solar pelo vento solar - um fluxo de gás eletricamente carregado saindo do Sol em todas as direções. A conexão e as interações entre o Sol e a Terra impulsionam as estações do ano, as correntes oceânicas, o clima, os cinturões de radiação e as auroras. Embora seja especial para nós, existem bilhões de estrelas como o nosso Sol espalhadas pela Via Láctea.
