@@ -116,11 +116,11 @@
 </details>
 
 <p>The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.</p>
-<p>The orbit scripts developed by <b>Kevin Ngo</b> were used on the VR pages: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.</p>
-<p>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>.</p>
-<p>The objective of this project is to show the planets in RA and RV with A-frame technology.</p>
-<p>The textures of the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.</p>
-<br>
+<br>The orbit scripts developed by <b>Kevin Ngo</b> were used on the VR pages: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
+<br>All information about the solar system was taken from NASA website: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>.
+<br>The objective of this project is to show the planets in RA and RV with A-frame technology.
+<br>The textures of the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
+
 <p>To view the Solar System in AR, simply visit</p>
 <p align="center"><a href="solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
 <p>with any browser with a webcam device (smartphone, tablet or notebook).</p>
