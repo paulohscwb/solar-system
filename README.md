@@ -124,3 +124,8 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><a href="vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/polyhedra/vr/VRaframe.PNG" width="180px"></a></td></tr></table>
 <p></p>
 </details>
+
+<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Solar System</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/solar-system/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
+
+<h4>How to cite this work:</h4> 
+<p>Siqueira, P.H., "Solar System". Available in: <https://paulohscwb.github.io/solar-system/>, September 2019.</p>
