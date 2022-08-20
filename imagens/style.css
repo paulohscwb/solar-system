@@ -8,6 +8,11 @@ details {
   width:100%;
 }
 
+details a img:hover {opacity:0.9; transition: all .5s;
+    box-shadow: 0 0 10px rgb(150,183,170) inset; border-radius:8px;}
+
+details a img {transition: all .5s; margin-top: 8px;}
+
 details[open] summary ~ * {
   animation: open .5s ease-in-out;
 }
