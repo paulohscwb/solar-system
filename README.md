@@ -10,7 +10,7 @@
 <h4>Solar System with dwarf planets</h4>
 <img src="https://paulohscwb.github.io/polyhedra/archimedes/ar/hiro.png" width="180px">
  <br><br>Our planetary system is located in an outer spiral arm of the Milky Way galaxy. Our solar system consists of our star, the Sun, and everything bound to it by gravity — the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, dwarf planets such as Pluto, dozens of moons and millions of asteroids, comets and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way (NASA, 2019). <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/" target="_blank">More...</a>
- <br><a href="vr/solar.html"><img src="https://paulohscwb.github.io/geometria-descritiva/vr/3d.png" width="25px"> MODEL</a>
+ <br><a href="vr/solar.html" target="_blank"><img src="https://paulohscwb.github.io/geometria-descritiva/vr/3d.png" width="25px"> MODEL</a>
 <hr>
 <h4>Solar System without dwarf planets</h4>
 <img src="https://paulohscwb.github.io/polyhedra/archimedes/ar/kanji.png" width="180px">
