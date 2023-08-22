@@ -132,5 +132,5 @@
 
 <h4>How to cite this work:</h4> 
 <p>Siqueira, P.H., "Solar System". Available in: <https://paulohscwb.github.io/solar-system/>, September 2019.</p>
-<br><a href="https://zenodo.org/badge/latestdoi/195099763"><img src="https://zenodo.org/badge/195099763.svg" alt="DOI"></a>
+<br><a target="_blank" href="https://zenodo.org/badge/latestdoi/195099763"><img src="https://zenodo.org/badge/195099763.svg" alt="DOI"></a>
 
