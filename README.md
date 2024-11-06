@@ -4,11 +4,13 @@
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/solar-system/pt-br/">versão em português</a>
  <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR. To make the RV and RA programmed environment closer to reality, we included orbital and rotational periods of each planet, the inclinations of orbits, and the distances aphelion and perihelion relative to Sun.
-
+<p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a></p>
+<hr>
   <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva do sistema solar" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><a href="sala.htm" target="_blank">&#x1f517; room</a></p>
-  
+  <hr>
+  <h3 id="m3d" align="center">3D models</h3>
 <details id="p1">
   <summary>Solar System</summary>
 <h4>Solar System with dwarf planets</h4>
@@ -118,6 +120,8 @@
  <br><a href="vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/geometria-descritiva/vr/3d.png" width="25px"> MODEL</a>
 <p class="topop"><a href="#p4" class="topo">back to top</a></p>
 </details>
+<hr>
+<h3 id="ra" align="center">Augmented Reality</h3>
 
 <br>The AR environment was created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
 <br>The orbit scripts developed by <b>Kevin Ngo</b> were used on the VR pages: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
