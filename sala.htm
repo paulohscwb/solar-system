@@ -7,10 +7,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/super-hands/dist/super-hands.min.js"></script>
-    <script src="https://rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
-    <script src="https://unpkg.com/aframe-physics-extras/dist/aframe-physics-extras.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
-	<script src="https://fernandojsg.github.io/aframe-teleport-controls/dist/aframe-teleport-controls.min.js"></script>
+    <script src="https://fernandojsg.github.io/aframe-teleport-controls/dist/aframe-teleport-controls.min.js"></script>
 	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
 	<script src="vr/nomes.js"></script>
   </head>
@@ -56,11 +53,12 @@
 			<a-mixin id="esferas" geometry="segments-width:100; segments-height:100;" material="side:double; metalness:0.5; roughness:0.6;"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
-           <a-camera id="head" look-controls position="0 1.7 4.5" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
+           <a-camera id="head" look-controls position="0 1.7 6.5" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
            <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
-        </a-entity>
-		<a-entity teleport-controls="cameraRig: #cameraRig; collisionEntities: [mixin='piso']; teleportOrigin: #head; button: grip;" hand-controls="hand: left"></a-entity>
-        <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
+			<a-entity teleport-controls="cameraRig: #cameraRig; collisionEntities: [mixin='piso']; teleportOrigin: #head; button: grip;" hand-controls="hand: left"></a-entity>
+		</a-entity>
+		
+		<a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-light type="point" color="white" intensity="0.5" position="0 0 0"></a-light>
 		
 		<a-sky src="#vialactea"></a-sky>
