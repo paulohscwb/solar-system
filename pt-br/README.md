@@ -4,7 +4,12 @@
  <br><b>contato:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/solar-system/">english version</a>
  <br><br>Os planetas do Sistema Solar podem ser visualizados em AR com os marcadores indicados, e através dos links criados nos marcadores, os planetas podem ser vistos em RV. Para tornar o ambiente programado em RV e RA mais próximo da realidade, foram incluídos os períodos orbital e de rotação de cada planeta, as inclinações das órbitas e as distâncias afélio e periélio em relação ao Sol.
-
+<p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a></p>
+<h3 align="center">Sala imersiva</h3>
+  <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva do sistema solar" frameborder="0" loading="lazy"></iframe></div>
+  <p align="center"><a href="../sala.htm" target="_blank">&#x1f517; room</a></p>
+<hr>
+<h3 id="m3d" align="center">Modelos 3D</h3>
 <details id="p1">
   <summary>Sistema Solar</summary>
 <h4>Sistema Solar com os planetas anões</h4>
@@ -114,7 +119,8 @@
  <br><a href="../vr/sun.html" target="_blank"><img src="https://paulohscwb.github.io/geometria-descritiva/vr/3d.png" width="25px"> MODELO 3D</a>
 <p class="topop"><a href="#p4" class="topo">voltar ao topo</a></p>
 </details>
-
+<hr>
+  <h3 id="ra" align="center">Realidade Aumentada</h3>
 <br>O ambiente AR foi criado com os scripts desenvolvidos por <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
 <br>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de RV: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
 <br>Todas as informações sobre o sistema solar foram retiradas do site da NASA: <a href="https://solarsystem.nasa.gov/" target="_blank">https://solarsystem.nasa.gov/</a>.
@@ -132,4 +138,3 @@
 
 <h4>Como citar este trabalho:</h4> 
 <p>Siqueira, P.H., "Solar System". Disponível em: <https://paulohscwb.github.io/solar-system/>, Setembro de 2019.</p>
-<br><a target="_blank" href="https://zenodo.org/badge/latestdoi/195099763"><img src="https://zenodo.org/badge/195099763.svg" alt="DOI"></a>
