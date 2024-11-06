@@ -5,6 +5,10 @@
  <br><a href="https://paulohscwb.github.io/solar-system/pt-br/">versão em português</a>
  <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR. To make the RV and RA programmed environment closer to reality, we included orbital and rotational periods of each planet, the inclinations of orbits, and the distances aphelion and perihelion relative to Sun.
 
+  <h3 align="center">Immersive room</h3>
+  <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva do sistema solar" frameborder="0" loading="lazy"></iframe></div>
+  <p align="center"><a href="sala.htm" target="_blank">&#x1f517; room</a></p>
+  
 <details id="p1">
   <summary>Solar System</summary>
 <h4>Solar System with dwarf planets</h4>
@@ -132,5 +136,3 @@
 
 <h4>How to cite this work:</h4> 
 <p>Siqueira, P.H., "Solar System". Available in: <https://paulohscwb.github.io/solar-system/>, September 2019.</p>
-<br><a target="_blank" href="https://zenodo.org/badge/latestdoi/195099763"><img src="https://zenodo.org/badge/195099763.svg" alt="DOI"></a>
-
