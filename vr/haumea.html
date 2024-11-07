@@ -3,7 +3,7 @@
   <head>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 	<script src="https://paulohscwb.github.io/polyhedra/scripts/aframe-orbit-controls.min.js"></script>
-	<script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+	<script src="https://unpkg.com/aframe-event-set-component@5.0.0/dist/aframe-event-set-component.min.js"></script>
 </head>
   <body>
 <div style='color:#f0f8ff; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2020 Paulo Henrique Siqueira</div>
@@ -15,7 +15,7 @@
 		<img id="vialactea" src="../imagens/8k_stars_milky_way.jpg">
 		<img id="sol" src="../imagens/2k_sun.jpg">
 		<img id="haumea1" src="../imagens/2k_haumea.jpg">
-		<a-mixin id="texto" text="width: 10; side:double; color: white"></a-mixin>
+		<a-mixin id="texto" text="width: 10; side:double; color: white" event-set__enter="_event: mouseenter; color: yellow" event-set__leave="_event: mouseleave; color: white"></a-mixin>
 		<a-mixin id="texto1" text="color: white; align: center;"></a-mixin>
 		<a-mixin id="orbita" material="color: white; opacity:0.15; side:double; metalness:0.5; roughness:0.6;"></a-mixin>
 		<a-mixin id="anel" rotation="-90 0 0" geometry="radius-tubular:0.006; segments-tubular:300;" 
@@ -28,10 +28,9 @@
 	<a-sky src="#vialactea"></a-sky>
 	<a-text mixin="texto1" width="6" position="0 -1 28.5" rotation="-45 0 0" 
 			  text="value:HAUMEA  |  Day: 4 hours  |  Year: 285 Earth years  |  Radius: 620 km  |  Planet Type: Dwarf  |  Moons: 2   |  Aphelion: 7,701.86 x 10^6 km  | Perihelion: 5,976.8 x 10^6 km  |  Orbit's inclination: 28.96 degrees ;"></a-text>
-	<a-light type="point" color="white" intensity="0.5" position="-4 3.5 0"></a-light>
+	<a-light type="point" color="white" intensity="0.15" position="-4 3.5 0"></a-light>
 
 	<a-entity position="0 0 0">
-		<a-light type="point" color="white" intensity="0.5" position="0 0 0"></a-light>
 		<a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="28" position="14 0 0" mixin="eixos"></a-cylinder>
@@ -49,7 +48,7 @@
 							<a-sphere src="#haumea1" radius="0.03" position="27.1 0 0" scale="2 1 1.528" mixin="esferas" rotation="0 0 0" animation="property: rotation; from:0 0 0; to:0 360 0; loop: true; dur: 6783; easing:linear">
 							</a-sphere>
 							<a-text value="HAUMEA" mixin="texto" position="27.1 0.25 0"></a-text>
-							<a-light type="spot" position="0 0 0" color="white" intensity="0.6" angle="45" penumbra="1" rotation="0 -90 0"></a-light>
+							<a-light type="spot" position="0 0 0" color="white" intensity="0.4" angle="45" penumbra="1" rotation="0 -90 0"></a-light>
 						</a-entity>
 						<a-torus radius="27.1" mixin="anel"></a-torus>
 					</a-entity>
