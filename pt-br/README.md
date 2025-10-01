@@ -3,11 +3,12 @@
 <b>desenvolvido por:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
  <br><b>contato:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/solar-system/">english version</a>
+ <p style="text-align: right;"><img src="../imagens/qr.png"/></p>
  <br><br>Os planetas do Sistema Solar podem ser visualizados em AR com os marcadores indicados, e através dos links criados nos marcadores, os planetas podem ser vistos em RV. Para tornar o ambiente programado em RV e RA mais próximo da realidade, foram incluídos os períodos orbital e de rotação de cada planeta, as inclinações das órbitas e as distâncias afélio e periélio em relação ao Sol.
 <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a></p>
 <h3 align="center">Sala imersiva</h3>
   <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva do sistema solar" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><a href="../sala.htm" target="_blank">&#x1f517; room</a></p>
+  <p align="center"><a href="../sala.htm" target="_blank">&#x1f517; sala</a></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
 <details id="p1">
@@ -128,8 +129,9 @@
 <br>As texturas dos planetas foram utilizadas do site Solar System Scope: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>
 
 <p>Para visualizar o Sistema Solar em RA, acesse a página:</p>
-<p align="center"><a href="../solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
+<p align="center"><a href="../solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p>
 <p>com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).</p>
+<p style="text-align: right;"><img src="../imagens/qrra.png"/></p>
 <center><img style="border-radius:7px; padding:15px 0 15px 0;" src="../vr/example.png" width="80%"></center>
 <p>O acesso aos sites de RV é feito clicando-se no círculo azul que aparece em cima de cada marcador.</p>
 <center><img style="border-radius:7px; padding:15px 0 15px 0;" src="../vr/example0.jpg" width="80%"></center>
