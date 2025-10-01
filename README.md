@@ -3,7 +3,8 @@
 <b>author:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/solar-system/pt-br/">versão em português</a>
- <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR. To make the RV and RA programmed environment closer to reality, we included orbital and rotational periods of each planet, the inclinations of orbits, and the distances aphelion and perihelion relative to Sun.
+ <div><img align="right" src="imagens/qr.png"/>
+ <br><br>The planets of Solar System can be viewed in AR with the indicated markers, and through the links created on the markers, the planets can be seen in VR. To make the RV and RA programmed environment closer to reality, we included orbital and rotational periods of each planet, the inclinations of orbits, and the distances aphelion and perihelion relative to Sun.</div>
 <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a></p>
 <hr>
   <h3 align="center">Immersive room</h3>
@@ -129,9 +130,9 @@
 <br>The objective of this project is to show the planets in RA and RV with A-frame technology.
 <br>The textures of the planets were used from Solar System Scope site: <a href="https://www.solarsystemscope.com/textures/" target="_blank">Solar Textures</a>.
 
-<p>To view the Solar System in AR, simply visit</p>
+<div><img align="right" src="imagens/qrra.png"/>To view the Solar System in AR, simply visit
 <p align="center"><a href="solar.html" target="_blank">https://paulohscwb.github.io/solar-system/solar.html</a></p> 
-<p>with any browser with a webcam device (smartphone, tablet or notebook).</p>
+<p>with any browser with a webcam device (smartphone, tablet or notebook).</p></div>
 <center><img style="border-radius:7px; padding:10px 0 10px 0;" src="vr/example.png" width="80%"></center>
 <p>Access to the VR sites is done by clicking on the blue circle that appears on top of the marker.</p>
 <center><img style="border-radius:7px; padding:10px 0 10px 0;" src="vr/example0.jpg" width="80%"></center>
