@@ -3,6 +3,7 @@
     <head>
 	<script src="https://aframe.io/releases/1.3.0/aframe.js"></script>
 	<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	<script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
 	<!--<script src="AR.js/aframe/build/aframe-ar.js"></script>
 	<script src="https://paulohscwb.github.io/AR.js/aframe/build/aframe-ar.js"></script>-->
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -47,9 +48,9 @@
         <a-light type="spot" intensity="0.3" color="#eaeaea" position="0 10 0" angle="90" rotation="-90 0 0" penumbra="0.5"></a-light>
         <a-light type="ambient" intensity="1.3" color="grey"></a-light>
 
-        <a-marker preset="hiro" smooth="smooth:true; smoothCount:1;">
+        <a-marker preset="hiro" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/solar.html"></a-link>
-	    <a-entity id="sistema" position="-0.3 2 0" scale="0.1 0.1 0.1">
+	    <a-entity id="sistema" position="-0.3 4 0" scale="0.1 0.1 0.1">
 		    <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		    </a-sphere>
 
@@ -275,9 +276,9 @@
 	    </a-entity>
 	 </a-marker>
 	 
-	 <a-marker preset="kanji" smooth="smooth:true; smoothCount:1;">
+	 <a-marker preset="kanji" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/solar1.html"></a-link>
-	    <a-entity id="sistema2" position="0 2 0" scale="0.13 0.13 0.13">
+	    <a-entity id="sistema2" position="0 4 0" scale="0.13 0.13 0.13">
 		<a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 
@@ -423,9 +424,9 @@
 	    </a-entity>
 	 </a-marker>
 
-	 <a-marker type="barcode" value="19" smooth="smooth:true; smoothCount:1;" smooth="smooth:true; smoothCount:1;">
+	 <a-marker type="barcode" value="19" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/jupiter.html"></a-link>
-	    <a-entity id="jupiter2" position="1.5 3 0" scale="0.25 0.25 0.25">
+	    <a-entity id="jupiter2" position="1.5 4.5 0" scale="0.25 0.25 0.25">
 	    <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>		    
 	   	<a-cylinder color="orange" rotation="90 0 90" height="10" position="5 0 0" mixin="eixos"></a-cylinder>
@@ -456,9 +457,9 @@
 	     </a-entity>
 	 </a-marker>
 	   
-	 <a-marker type="barcode" value="20" smooth="smooth:true; smoothCount:1;">
+	 <a-marker type="barcode" value="20" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/mars.html"></a-link>
-	      <a-entity id="marte2" position="1.5 3 0" scale="0.25 0.25 0.25">
+	      <a-entity id="marte2" position="1.5 4.5 0" scale="0.25 0.25 0.25">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="5.5" position="2.5 0 0" mixin="eixos"></a-cylinder>
@@ -489,9 +490,9 @@
 	     </a-entity>
 	 </a-marker>
 	   
-	 <a-marker type="barcode" value="18" smooth="smooth:true; smoothCount:1;">
+	 <a-marker type="barcode" value="18" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/saturn.html"></a-link>
-	      <a-entity id="saturno2" position="1.5 3 0" scale="0.16 0.16 0.16">
+	      <a-entity id="saturno2" position="1.5 4.5 0" scale="0.16 0.16 0.16">
 	        <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="12.5" position="7 0 0" mixin="eixos"></a-cylinder>
@@ -524,9 +525,9 @@
 	     </a-entity>
 	 </a-marker>
 	   
-	 <a-marker type="barcode" value="17" smooth="smooth:true; smoothCount:1;">
+	 <a-marker type="barcode" value="17" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/uranus.html"></a-link>  
-	      <a-entity id="urano2" position="1.2 3 0" scale="0.11 0.11 0.11">
+	      <a-entity id="urano2" position="1.2 4.5 0" scale="0.11 0.11 0.11">
 	        <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="18.5" position="9 0 0" mixin="eixos"></a-cylinder>
@@ -559,9 +560,9 @@
 	    </a-entity>
 	</a-marker>
 		 
-	<a-marker type="barcode" value="16" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="16" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/eris.html"></a-link>
-	     <a-entity id="eris2" position="1.2 3 0" scale="0.1 0.1 0.1">
+	     <a-entity id="eris2" position="1.2 4.5 0" scale="0.1 0.1 0.1">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="33" position="17 0 0" mixin="eixos"></a-cylinder>
@@ -590,9 +591,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="14" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="14" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/makemake.html"></a-link>
-	     <a-entity id="makemake2" position="1.2 3 0" scale="0.1 0.1 0.1">
+	     <a-entity id="makemake2" position="1.2 4.5 0" scale="0.1 0.1 0.1">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="26" position="13.5 0 0" mixin="eixos"></a-cylinder>
@@ -621,9 +622,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="15" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="15" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/haumea.html"></a-link>
-	     <a-entity id="haumea2" position="1.2 3 0" scale="0.1 0.1 0.1">
+	     <a-entity id="haumea2" position="1.2 4.5 0" scale="0.1 0.1 0.1">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="28" position="14 0 0" mixin="eixos"></a-cylinder>
@@ -652,9 +653,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="13" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="13" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/ceres.html"></a-link>
-	     <a-entity id="ceres2" position="1.5 3 0" scale="0.25 0.25 0.25">
+	     <a-entity id="ceres2" position="1.5 4.5 0" scale="0.25 0.25 0.25">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="7.5" position="3.5 0 0" mixin="eixos"></a-cylinder>
@@ -685,9 +686,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="12" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="12" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/pluto.html"></a-link>
-	     <a-entity id="plutao2" position="1.2 3 0" scale="0.1 0.1 0.1">
+	     <a-entity id="plutao2" position="1.2 4.5 0" scale="0.1 0.1 0.1">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="26" position="13 0 0" mixin="eixos"></a-cylinder>
@@ -718,9 +719,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="11" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="11" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/neptune.html"></a-link>
-	     <a-entity id="netuno2" position="1.2 3 0" scale="0.11 0.11 0.11">
+	     <a-entity id="netuno2" position="1.2 4.5 0" scale="0.11 0.11 0.11">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="22.7" position="12 0 0" mixin="eixos"></a-cylinder>
@@ -751,9 +752,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="10" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="10" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/earth.html"></a-link>
-	     <a-entity id="terra2" position="1.5 3 0" scale="0.25 0.25 0.25">
+	     <a-entity id="terra2" position="1.5 4.5 0" scale="0.25 0.25 0.25">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="4" position="2.5 0 0" mixin="eixos"></a-cylinder>
@@ -792,9 +793,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="9" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="9" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/venus.html"></a-link>
-	     <a-entity id="venus2" position="1.5 3 0" scale="0.25 0.25 0.25">
+	     <a-entity id="venus2" position="1.5 4.5 0" scale="0.25 0.25 0.25">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="3.9" position="1.5 0 0" mixin="eixos"></a-cylinder>
@@ -825,9 +826,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="6" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="6" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/mercury.html"></a-link>
-	     <a-entity id="mercurio2" position="1.5 3 0" scale="0.25 0.25 0.25">
+	     <a-entity id="mercurio2" position="1.5 4.5 0" scale="0.25 0.25 0.25">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="orange" rotation="90 0 90" height="2.8" position="1.5 0 0" mixin="eixos"></a-cylinder>
@@ -858,9 +859,9 @@
 	    </a-entity>
 	</a-marker>
 	
-	<a-marker type="barcode" value="7" smooth="smooth:true; smoothCount:1;">
+	<a-marker type="barcode" value="7" smooth="smooth:true; smoothCount:1;" emitevents="true">
 	    <a-link mixin="lnk" class="lnk" href="vr/sun.html"></a-link>
-	    <a-entity id="sol2" position="1.5 3 0" scale="0.25 0.25 0.25">
+	    <a-entity id="sol2" position="1.5 4.5 0" scale="0.25 0.25 0.25">
 	       <a-sphere src="#sol" radius="2" mixin="esferas" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
 		</a-sphere>
 		<a-cylinder color="green" position="0 0 0" height="5" mixin="eixos" rotation="0 0 0" animation="property: rotation; from:7.25 0 0; to:7.25 360 0; loop: true; dur: 98296; easing:linear">
